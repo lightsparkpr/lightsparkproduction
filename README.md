@@ -1,2 +1,0 @@
-# lightsparkproduction
-LightSpark Production
