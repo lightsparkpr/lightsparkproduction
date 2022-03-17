@@ -1,0 +1,39 @@
+0205.261 (1) Opened log file at time: Thu, 17 Mar 2022 07:09:55 +0000 on http://localhost/lightsparkproduction
+0205.262 (1) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.22.11 WP: 5.9.2 PHP: 7.4.26 (apache2handler, Windows NT NHATTAN 10.0 build 22000 (Windows 10) AMD64) MySQL: 5.7.36 (max packet size=1048576) WPLANG: en_US Server: Apache/2.4.51 (Win64) PHP/7.4.26 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 8.7M | 2M) multisite: N openssl: OpenSSL 1.1.1l  24 Aug 2021 mcrypt: N LANG:  ZipArchive::addFile: Y
+0205.262 (1) Free space on disk containing Updraft's temporary directory: 88837.4 MB
+0205.270 (1) Requesting backup semaphore lock (1ca432e9ed2c)
+0205.271 (1) [Info] Lock (updraft_lock_be64e233ca9e, wp_options) acquired
+0205.271 (1) Backup run: resumption=1, nonce=1ca432e9ed2c, file_nonce=1ca432e9ed2c begun at=1647500789 (206s ago), job type=backup, previous check-in=64.15s
+0205.272 (1) Scheduling a resumption (2) after 300 seconds (1647501295) in case this run gets aborted
+0205.273 (1) Checking if we have a zip executable available
+0205.274 (1) Creation of backups of directories: already finished
+0205.274 (1) Saving backup status to database (elements: 8)
+0205.276 (1) Database dump (WordPress DB): Creation was completed already
+0205.276 (1) SQL compatibility mode is: NO_ZERO_IN_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER
+0205.278 (1) backup_2022-03-17-0706_LightSpark_Production_be64e233ca9e-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0205.278 (1) backup_2022-03-17-0706_LightSpark_Production_be64e233ca9e-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0205.278 (1) backup_2022-03-17-0706_LightSpark_Production_be64e233ca9e-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0205.279 (1) backup_2022-03-17-0706_LightSpark_Production_be64e233ca9e-others.zip: others: This file has not yet been successfully uploaded: will queue
+0205.279 (1) backup_2022-03-17-0706_LightSpark_Production_1ca432e9ed2c-db.gz: db: This file is not ours to upload and has been/will be handled by another job.
+0205.280 (1) Saving backup history. Total backup size: Unknown
+0205.281 (1) Requesting upload of the files that have not yet been successfully uploaded (4)
+0205.282 (1) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0205.282 (1) Beginning dispatch of backup to remote (googledrive) (instance identifier s-72c76f0d5e36c3be8392cd68a4466d80)
+0205.282 (1) Google Drive: this account is not authorised
+0205.284 (1) Retain: beginning examination of existing backup sets; user setting: retain_files=3, retain_db=3
+0205.284 (1) Number of backup sets in history: 1; groups (db): 1
+0205.285 (1) Examining (for databases) backup set with group_id=0, nonce=1ca432e9ed2c, datestamp=1647500789 (Mar 17 2022 07:06:29)
+0205.285 (1) This backup set is the backup set just made, so will not be deleted.
+0205.285 (1) Number of backup sets in history: 1; groups (files): 1
+0205.285 (1) Examining (for files) backup set with nonce=1ca432e9ed2c, datestamp=1647500789 (Mar 17 2022 07:06:29)
+0205.285 (1) This backup set is the backup set just made, so will not be deleted.
+0205.286 (1) This backup set is the backup set just made, so will not be deleted.
+0205.286 (1) This backup set is the backup set just made, so will not be deleted.
+0205.286 (1) This backup set is the backup set just made, so will not be deleted.
+0205.286 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0205.286 (1) Retain: saving new backup history (sets now: 1) and finishing retain operation
+0205.287 (1) Resume backup (1ca432e9ed2c, 1): finish run
+0205.288 (1) [Info] Lock option (updraft_lock_be64e233ca9e, wp_options) released
+0205.289 (1) There were errors in the uploads, so the 'resume' event is remaining scheduled
+0205.289 (1) No email will/can be sent - the user has not configured an email address.
+0205.290 (1) The backup has not finished; a resumption is scheduled
