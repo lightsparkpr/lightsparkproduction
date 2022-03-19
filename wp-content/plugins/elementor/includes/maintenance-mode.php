@@ -109,18 +109,7 @@ class Maintenance_Mode {
 
 		$exclude_mode = self::get( 'exclude_mode', [] );
 
-		$is_login_page = false;
-
-		/**
-		 * Is login page
-		 *
-		 * Filters whether the maintenance mode displaying the login page or a regular page.
-		 *
-		 * @since 1.0.4
-		 *
-		 * @param bool $is_login_page Whether its a login page.
-		 */
-		$is_login_page = apply_filters( 'elementor/maintenance_mode/is_login_page', $is_login_page );
+		$is_login_page = apply_filters( 'elementor/maintenance_mode/is_login_page', false );
 
 		if ( $is_login_page ) {
 			return;

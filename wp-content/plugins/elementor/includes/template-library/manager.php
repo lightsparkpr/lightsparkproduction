@@ -4,7 +4,6 @@ namespace Elementor\TemplateLibrary;
 use Elementor\Api;
 use Elementor\Core\Common\Modules\Ajax\Module as Ajax;
 use Elementor\Core\Settings\Manager as SettingsManager;
-use Elementor\Includes\TemplateLibrary\Data\Controller;
 use Elementor\TemplateLibrary\Classes\Import_Images;
 use Elementor\Plugin;
 use Elementor\User;
@@ -55,8 +54,6 @@ class Manager {
 	 * @access public
 	 */
 	public function __construct() {
-		Plugin::$instance->data_manager_v2->register_controller( new Controller() );
-
 		$this->register_default_sources();
 
 		$this->add_actions();
@@ -186,18 +183,15 @@ class Manager {
 	 *
 	 * Retrieve all the templates from all the registered sources.
 	 *
-	 * @param array $filter_sources
+	 * @since 1.0.0
+	 * @access public
 	 *
-	 * @return array
+	 * @return array Templates array.
 	 */
-	public function get_templates( $filter_sources = [] ) {
+	public function get_templates() {
 		$templates = [];
 
 		foreach ( $this->get_registered_sources() as $source ) {
-			if ( ! empty( $filter_sources ) && ! in_array( $source->get_id(), $filter_sources, true ) ) {
-				continue;
-			}
-
 			$templates = array_merge( $templates, $source->get_items() );
 		}
 
@@ -222,10 +216,8 @@ class Manager {
 		// Ensure all document are registered.
 		Plugin::$instance->documents->get_document_types();
 
-		$filter_sources = ! empty( $args['filter_sources'] ) ? $args['filter_sources'] : [];
-
 		return [
-			'templates' => $this->get_templates( $filter_sources ),
+			'templates' => $this->get_templates(),
 			'config' => $library_data['types_data'],
 		];
 	}
@@ -454,20 +446,13 @@ class Manager {
 		$upload_result = Plugin::$instance->uploads_manager->handle_elementor_upload( $data, [ 'zip', 'json' ] );
 
 		if ( is_wp_error( $upload_result ) ) {
-			Plugin::$instance->uploads_manager->remove_file_or_dir( dirname( $upload_result['tmp_name'] ) );
-
 			return $upload_result;
 		}
 
 		/** @var Source_Local $source_local */
 		$source_local = $this->get_source( 'local' );
 
-		$import_result = $source_local->import_template( $upload_result['name'], $upload_result['tmp_name'] );
-
-		// Remove the temporary directory generated for the stream-uploaded file.
-		Plugin::$instance->uploads_manager->remove_file_or_dir( dirname( $upload_result['tmp_name'] ) );
-
-		return $import_result;
+		return $source_local->import_template( $upload_result['name'], $upload_result['tmp_name'] );
 	}
 
 	/**

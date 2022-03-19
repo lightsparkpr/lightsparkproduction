@@ -29,10 +29,6 @@ class General extends Base_Category {
 		return esc_html__( 'General', 'elementor' );
 	}
 
-	public function get_id() {
-		return 'general';
-	}
-
 	/**
 	 * Get category items.
 	 *
