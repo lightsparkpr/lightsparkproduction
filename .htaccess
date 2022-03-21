@@ -1,6 +1,3 @@
-#BEGIN Really Simple SSL LETS ENCRYPT
-RewriteRule ^.well-known/(.*)$ - [L]
-#END Really Simple SSL LETS ENCRYPT
 
 # BEGIN WordPress
 # The directives (lines) between "BEGIN WordPress" and "END WordPress" are

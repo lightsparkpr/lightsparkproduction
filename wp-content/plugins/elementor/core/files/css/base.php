@@ -701,10 +701,6 @@ abstract class Base extends Base_File {
 		}
 
 		if ( ! is_numeric( $value ) && ! is_float( $value ) && empty( $value ) ) {
-			if ( ! empty( $control['global']['default'] ) ) {
-				return $this->get_selector_global_value( $control, $control['global']['default'] );
-			}
-
 			return null;
 		}
 
@@ -783,7 +779,7 @@ abstract class Base extends Base_File {
 	}
 
 	private function get_selector_global_value( $control, $global_key ) {
-		$data = Plugin::$instance->data_manager->run( $global_key );
+		$data = Plugin::$instance->data_manager_v2->run( $global_key );
 
 		if ( empty( $data['value'] ) ) {
 			return null;

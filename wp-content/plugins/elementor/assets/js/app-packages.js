@@ -1,4 +1,4 @@
-/*! elementor - v3.4.1 - 18-08-2021 */
+/*! elementor - v3.5.6 - 28-02-2022 */
 /******/ (() => { // webpackBootstrap
 /******/ 	var __webpack_modules__ = ({
 
@@ -599,7 +599,7 @@ function _arrayLikeToArray(arr, len) {
 }
 
 module.exports = _arrayLikeToArray;
-module.exports.default = module.exports, module.exports.__esModule = true;
+module.exports["default"] = module.exports, module.exports.__esModule = true;
 
 /***/ }),
 
@@ -616,7 +616,7 @@ function _arrayWithHoles(arr) {
 }
 
 module.exports = _arrayWithHoles;
-module.exports.default = module.exports, module.exports.__esModule = true;
+module.exports["default"] = module.exports, module.exports.__esModule = true;
 
 /***/ }),
 
@@ -635,7 +635,7 @@ function _arrayWithoutHoles(arr) {
 }
 
 module.exports = _arrayWithoutHoles;
-module.exports.default = module.exports, module.exports.__esModule = true;
+module.exports["default"] = module.exports, module.exports.__esModule = true;
 
 /***/ }),
 
@@ -654,7 +654,7 @@ function _assertThisInitialized(self) {
 }
 
 module.exports = _assertThisInitialized;
-module.exports.default = module.exports, module.exports.__esModule = true;
+module.exports["default"] = module.exports, module.exports.__esModule = true;
 
 /***/ }),
 
@@ -671,7 +671,7 @@ function _classCallCheck(instance, Constructor) {
 }
 
 module.exports = _classCallCheck;
-module.exports.default = module.exports, module.exports.__esModule = true;
+module.exports["default"] = module.exports, module.exports.__esModule = true;
 
 /***/ }),
 
@@ -701,7 +701,7 @@ function _createClass(Constructor, protoProps, staticProps) {
 }
 
 module.exports = _createClass;
-module.exports.default = module.exports, module.exports.__esModule = true;
+module.exports["default"] = module.exports, module.exports.__esModule = true;
 
 /***/ }),
 
@@ -777,7 +777,7 @@ function _createForOfIteratorHelper(o, allowArrayLike) {
 }
 
 module.exports = _createForOfIteratorHelper;
-module.exports.default = module.exports, module.exports.__esModule = true;
+module.exports["default"] = module.exports, module.exports.__esModule = true;
 
 /***/ }),
 
@@ -813,7 +813,7 @@ function _createSuper(Derived) {
 }
 
 module.exports = _createSuper;
-module.exports.default = module.exports, module.exports.__esModule = true;
+module.exports["default"] = module.exports, module.exports.__esModule = true;
 
 /***/ }),
 
@@ -841,7 +841,7 @@ function _defineProperty(obj, key, value) {
 }
 
 module.exports = _defineProperty;
-module.exports.default = module.exports, module.exports.__esModule = true;
+module.exports["default"] = module.exports, module.exports.__esModule = true;
 
 /***/ }),
 
@@ -868,12 +868,12 @@ function _extends() {
     return target;
   };
 
-  module.exports.default = module.exports, module.exports.__esModule = true;
+  module.exports["default"] = module.exports, module.exports.__esModule = true;
   return _extends.apply(this, arguments);
 }
 
 module.exports = _extends;
-module.exports.default = module.exports, module.exports.__esModule = true;
+module.exports["default"] = module.exports, module.exports.__esModule = true;
 
 /***/ }),
 
@@ -892,7 +892,7 @@ var superPropBase = __webpack_require__(/*! ./superPropBase.js */ "../node_modul
 function _get(target, property, receiver) {
   if (typeof Reflect !== "undefined" && _Reflect$get) {
     module.exports = _get = _Reflect$get;
-    module.exports.default = module.exports, module.exports.__esModule = true;
+    module.exports["default"] = module.exports, module.exports.__esModule = true;
   } else {
     module.exports = _get = function _get(target, property, receiver) {
       var base = superPropBase(target, property);
@@ -907,14 +907,14 @@ function _get(target, property, receiver) {
       return desc.value;
     };
 
-    module.exports.default = module.exports, module.exports.__esModule = true;
+    module.exports["default"] = module.exports, module.exports.__esModule = true;
   }
 
   return _get(target, property, receiver || target);
 }
 
 module.exports = _get;
-module.exports.default = module.exports, module.exports.__esModule = true;
+module.exports["default"] = module.exports, module.exports.__esModule = true;
 
 /***/ }),
 
@@ -932,12 +932,12 @@ function _getPrototypeOf(o) {
   module.exports = _getPrototypeOf = _Object$setPrototypeOf ? _Object$getPrototypeOf : function _getPrototypeOf(o) {
     return o.__proto__ || _Object$getPrototypeOf(o);
   };
-  module.exports.default = module.exports, module.exports.__esModule = true;
+  module.exports["default"] = module.exports, module.exports.__esModule = true;
   return _getPrototypeOf(o);
 }
 
 module.exports = _getPrototypeOf;
-module.exports.default = module.exports, module.exports.__esModule = true;
+module.exports["default"] = module.exports, module.exports.__esModule = true;
 
 /***/ }),
 
@@ -967,7 +967,7 @@ function _inherits(subClass, superClass) {
 }
 
 module.exports = _inherits;
-module.exports.default = module.exports, module.exports.__esModule = true;
+module.exports["default"] = module.exports, module.exports.__esModule = true;
 
 /***/ }),
 
@@ -984,7 +984,7 @@ function _interopRequireDefault(obj) {
 }
 
 module.exports = _interopRequireDefault;
-module.exports.default = module.exports, module.exports.__esModule = true;
+module.exports["default"] = module.exports, module.exports.__esModule = true;
 
 /***/ }),
 
@@ -994,7 +994,7 @@ module.exports.default = module.exports, module.exports.__esModule = true;
   \********************************************************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-var _typeof = __webpack_require__(/*! @babel/runtime-corejs2/helpers/typeof */ "../node_modules/@babel/runtime-corejs2/helpers/typeof.js").default;
+var _typeof = __webpack_require__(/*! @babel/runtime-corejs2/helpers/typeof */ "../node_modules/@babel/runtime-corejs2/helpers/typeof.js")["default"];
 
 var _WeakMap = __webpack_require__(/*! @babel/runtime-corejs2/core-js/weak-map */ "../node_modules/@babel/runtime-corejs2/core-js/weak-map.js");
 
@@ -1053,7 +1053,7 @@ function _interopRequireWildcard(obj, nodeInterop) {
 }
 
 module.exports = _interopRequireWildcard;
-module.exports.default = module.exports, module.exports.__esModule = true;
+module.exports["default"] = module.exports, module.exports.__esModule = true;
 
 /***/ }),
 
@@ -1079,7 +1079,7 @@ function _isNativeReflectConstruct() {
 }
 
 module.exports = _isNativeReflectConstruct;
-module.exports.default = module.exports, module.exports.__esModule = true;
+module.exports["default"] = module.exports, module.exports.__esModule = true;
 
 /***/ }),
 
@@ -1100,7 +1100,7 @@ function _iterableToArray(iter) {
 }
 
 module.exports = _iterableToArray;
-module.exports.default = module.exports, module.exports.__esModule = true;
+module.exports["default"] = module.exports, module.exports.__esModule = true;
 
 /***/ }),
 
@@ -1145,7 +1145,7 @@ function _iterableToArrayLimit(arr, i) {
 }
 
 module.exports = _iterableToArrayLimit;
-module.exports.default = module.exports, module.exports.__esModule = true;
+module.exports["default"] = module.exports, module.exports.__esModule = true;
 
 /***/ }),
 
@@ -1160,7 +1160,7 @@ function _nonIterableRest() {
 }
 
 module.exports = _nonIterableRest;
-module.exports.default = module.exports, module.exports.__esModule = true;
+module.exports["default"] = module.exports, module.exports.__esModule = true;
 
 /***/ }),
 
@@ -1175,7 +1175,7 @@ function _nonIterableSpread() {
 }
 
 module.exports = _nonIterableSpread;
-module.exports.default = module.exports, module.exports.__esModule = true;
+module.exports["default"] = module.exports, module.exports.__esModule = true;
 
 /***/ }),
 
@@ -1238,7 +1238,7 @@ function _objectSpread2(target) {
 }
 
 module.exports = _objectSpread2;
-module.exports.default = module.exports, module.exports.__esModule = true;
+module.exports["default"] = module.exports, module.exports.__esModule = true;
 
 /***/ }),
 
@@ -1248,20 +1248,22 @@ module.exports.default = module.exports, module.exports.__esModule = true;
   \***********************************************************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-var _typeof = __webpack_require__(/*! @babel/runtime-corejs2/helpers/typeof */ "../node_modules/@babel/runtime-corejs2/helpers/typeof.js").default;
+var _typeof = __webpack_require__(/*! @babel/runtime-corejs2/helpers/typeof */ "../node_modules/@babel/runtime-corejs2/helpers/typeof.js")["default"];
 
 var assertThisInitialized = __webpack_require__(/*! ./assertThisInitialized.js */ "../node_modules/@babel/runtime-corejs2/helpers/assertThisInitialized.js");
 
 function _possibleConstructorReturn(self, call) {
   if (call && (_typeof(call) === "object" || typeof call === "function")) {
     return call;
+  } else if (call !== void 0) {
+    throw new TypeError("Derived constructors may only return object or undefined");
   }
 
   return assertThisInitialized(self);
 }
 
 module.exports = _possibleConstructorReturn;
-module.exports.default = module.exports, module.exports.__esModule = true;
+module.exports["default"] = module.exports, module.exports.__esModule = true;
 
 /***/ }),
 
@@ -1279,12 +1281,12 @@ function _setPrototypeOf(o, p) {
     return o;
   };
 
-  module.exports.default = module.exports, module.exports.__esModule = true;
+  module.exports["default"] = module.exports, module.exports.__esModule = true;
   return _setPrototypeOf(o, p);
 }
 
 module.exports = _setPrototypeOf;
-module.exports.default = module.exports, module.exports.__esModule = true;
+module.exports["default"] = module.exports, module.exports.__esModule = true;
 
 /***/ }),
 
@@ -1307,7 +1309,7 @@ function _slicedToArray(arr, i) {
 }
 
 module.exports = _slicedToArray;
-module.exports.default = module.exports, module.exports.__esModule = true;
+module.exports["default"] = module.exports, module.exports.__esModule = true;
 
 /***/ }),
 
@@ -1329,7 +1331,7 @@ function _superPropBase(object, property) {
 }
 
 module.exports = _superPropBase;
-module.exports.default = module.exports, module.exports.__esModule = true;
+module.exports["default"] = module.exports, module.exports.__esModule = true;
 
 /***/ }),
 
@@ -1352,7 +1354,7 @@ function _toConsumableArray(arr) {
 }
 
 module.exports = _toConsumableArray;
-module.exports.default = module.exports, module.exports.__esModule = true;
+module.exports["default"] = module.exports, module.exports.__esModule = true;
 
 /***/ }),
 
@@ -1374,20 +1376,20 @@ function _typeof(obj) {
       return typeof obj;
     };
 
-    module.exports.default = module.exports, module.exports.__esModule = true;
+    module.exports["default"] = module.exports, module.exports.__esModule = true;
   } else {
     module.exports = _typeof = function _typeof(obj) {
       return obj && typeof _Symbol === "function" && obj.constructor === _Symbol && obj !== _Symbol.prototype ? "symbol" : typeof obj;
     };
 
-    module.exports.default = module.exports, module.exports.__esModule = true;
+    module.exports["default"] = module.exports, module.exports.__esModule = true;
   }
 
   return _typeof(obj);
 }
 
 module.exports = _typeof;
-module.exports.default = module.exports, module.exports.__esModule = true;
+module.exports["default"] = module.exports, module.exports.__esModule = true;
 
 /***/ }),
 
@@ -1411,7 +1413,7 @@ function _unsupportedIterableToArray(o, minLen) {
 }
 
 module.exports = _unsupportedIterableToArray;
-module.exports.default = module.exports, module.exports.__esModule = true;
+module.exports["default"] = module.exports, module.exports.__esModule = true;
 
 /***/ }),
 
@@ -2692,14 +2694,18 @@ _Object$defineProperty(exports, "__esModule", {
   value: true
 });
 
-exports.default = useAction;
+exports["default"] = useAction;
+
+__webpack_require__(/*! core-js/modules/es6.string.includes.js */ "../node_modules/core-js/modules/es6.string.includes.js");
+
+__webpack_require__(/*! core-js/modules/es7.array.includes.js */ "../node_modules/core-js/modules/es7.array.includes.js");
 
 function useAction() {
   return {
     backToDashboard: function backToDashboard() {
       if (window.top === window) {
-        // Directly.
-        window.top.location = elementorAppConfig.return_url;
+        // Directly - in case that the return_url is the login-page, the target should be the admin-page and not the login-page again.
+        window.top.location = elementorAppConfig.return_url.includes(elementorAppConfig.login_url) ? elementorAppConfig.admin_url : elementorAppConfig.return_url;
       } else {
         // Iframe.
         window.top.$e.run('app/close');
@@ -2727,7 +2733,7 @@ _Object$defineProperty(exports, "__esModule", {
   value: true
 });
 
-exports.default = useAjax;
+exports["default"] = useAjax;
 
 var _objectSpread2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime-corejs2/helpers/objectSpread2 */ "../node_modules/@babel/runtime-corejs2/helpers/objectSpread2.js"));
 
@@ -2766,7 +2772,7 @@ function useAjax() {
         }
 
         if (!ajax.data.nonce) {
-          formData.append('nonce', elementorCommon.config.ajax.nonce);
+          formData.append('_nonce', elementorCommon.config.ajax.nonce);
         }
       }
 
@@ -2816,6 +2822,105 @@ function useAjax() {
 
 /***/ }),
 
+/***/ "../core/app/assets/js/hooks/use-page-title.js":
+/*!*****************************************************!*\
+  !*** ../core/app/assets/js/hooks/use-page-title.js ***!
+  \*****************************************************/
+/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
+
+"use strict";
+/* provided dependency */ var __ = __webpack_require__(/*! @wordpress/i18n */ "@wordpress/i18n")["__"];
+
+
+var _Object$defineProperty = __webpack_require__(/*! @babel/runtime-corejs2/core-js/object/define-property */ "../node_modules/@babel/runtime-corejs2/core-js/object/define-property.js");
+
+_Object$defineProperty(exports, "__esModule", {
+  value: true
+});
+
+exports["default"] = usePageTitle;
+
+var _react = __webpack_require__(/*! react */ "react");
+
+function usePageTitle(_ref) {
+  var title = _ref.title,
+      prefix = _ref.prefix;
+  (0, _react.useEffect)(function () {
+    if (!prefix) {
+      prefix = __('Elementor', 'elementor');
+    }
+
+    document.title = "".concat(prefix, " | ").concat(title);
+  }, [title, prefix]);
+}
+
+/***/ }),
+
+/***/ "../core/app/assets/js/hooks/use-query-params.js":
+/*!*******************************************************!*\
+  !*** ../core/app/assets/js/hooks/use-query-params.js ***!
+  \*******************************************************/
+/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
+
+"use strict";
+
+
+var _Object$defineProperty = __webpack_require__(/*! @babel/runtime-corejs2/core-js/object/define-property */ "../node_modules/@babel/runtime-corejs2/core-js/object/define-property.js");
+
+var _interopRequireDefault = __webpack_require__(/*! @babel/runtime-corejs2/helpers/interopRequireDefault */ "../node_modules/@babel/runtime-corejs2/helpers/interopRequireDefault.js");
+
+_Object$defineProperty(exports, "__esModule", {
+  value: true
+});
+
+exports["default"] = useQueryParams;
+
+var _objectSpread2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime-corejs2/helpers/objectSpread2 */ "../node_modules/@babel/runtime-corejs2/helpers/objectSpread2.js"));
+
+var _slicedToArray2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime-corejs2/helpers/slicedToArray */ "../node_modules/@babel/runtime-corejs2/helpers/slicedToArray.js"));
+
+__webpack_require__(/*! core-js/modules/es6.regexp.search.js */ "../node_modules/core-js/modules/es6.regexp.search.js");
+
+__webpack_require__(/*! core-js/modules/es6.object.to-string.js */ "../node_modules/core-js/modules/es6.object.to-string.js");
+
+__webpack_require__(/*! core-js/modules/es6.array.iterator.js */ "../node_modules/core-js/modules/es6.array.iterator.js");
+
+__webpack_require__(/*! core-js/modules/web.dom.iterable.js */ "../node_modules/core-js/modules/web.dom.iterable.js");
+
+__webpack_require__(/*! core-js/modules/es6.regexp.match.js */ "../node_modules/core-js/modules/es6.regexp.match.js");
+
+__webpack_require__(/*! core-js/modules/es6.regexp.split.js */ "../node_modules/core-js/modules/es6.regexp.split.js");
+
+function useQueryParams() {
+  var _location$hash$match;
+
+  var urlSearchParams = new URLSearchParams(window.location.search),
+      urlParams = Object.fromEntries(urlSearchParams.entries()),
+      hashValue = (_location$hash$match = location.hash.match(/\?(.+)/)) === null || _location$hash$match === void 0 ? void 0 : _location$hash$match[1],
+      hashParams = {};
+
+  if (hashValue) {
+    hashValue.split('&').forEach(function (pair) {
+      var _pair$split = pair.split('='),
+          _pair$split2 = (0, _slicedToArray2.default)(_pair$split, 2),
+          key = _pair$split2[0],
+          value = _pair$split2[1];
+
+      hashParams[key] = value;
+    });
+  } // Merging the URL params with the hash params.
+
+
+  var queryParams = (0, _objectSpread2.default)((0, _objectSpread2.default)({}, urlParams), hashParams);
+  return {
+    getAll: function getAll() {
+      return queryParams;
+    }
+  };
+}
+
+/***/ }),
+
 /***/ "../core/app/assets/js/layout/content.js":
 /*!***********************************************!*\
   !*** ../core/app/assets/js/layout/content.js ***!
@@ -2834,7 +2939,7 @@ _Object$defineProperty(exports, "__esModule", {
   value: true
 });
 
-exports.default = Content;
+exports["default"] = Content;
 
 var _react = _interopRequireDefault(__webpack_require__(/*! react */ "react"));
 
@@ -2872,7 +2977,7 @@ _Object$defineProperty(exports, "__esModule", {
   value: true
 });
 
-exports.default = Footer;
+exports["default"] = Footer;
 
 var _react = _interopRequireDefault(__webpack_require__(/*! react */ "react"));
 
@@ -2905,7 +3010,7 @@ _Object$defineProperty(exports, "__esModule", {
   value: true
 });
 
-exports.default = void 0;
+exports["default"] = void 0;
 
 var _assign = _interopRequireDefault(__webpack_require__(/*! @babel/runtime-corejs2/core-js/object/assign */ "../node_modules/@babel/runtime-corejs2/core-js/object/assign.js"));
 
@@ -2954,7 +3059,7 @@ var Button = /*#__PURE__*/function (_BaseButton) {
   return Button;
 }(_button.default);
 
-exports.default = Button;
+exports["default"] = Button;
 (0, _defineProperty2.default)(Button, "defaultProps", (0, _assign.default)({}
 /* clone */
 , _button.default.defaultProps, {
@@ -2983,7 +3088,7 @@ _Object$defineProperty(exports, "__esModule", {
   value: true
 });
 
-exports.default = HeaderButtons;
+exports["default"] = HeaderButtons;
 
 var _react = _interopRequireDefault(__webpack_require__(/*! react */ "react"));
 
@@ -2991,9 +3096,12 @@ var _extends2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime-co
 
 __webpack_require__(/*! core-js/modules/es6.array.map.js */ "../node_modules/core-js/modules/es6.array.map.js");
 
+var _useAction = _interopRequireDefault(__webpack_require__(/*! elementor-app/hooks/use-action */ "../core/app/assets/js/hooks/use-action.js"));
+
 var _headerButton = _interopRequireDefault(__webpack_require__(/*! ./header-button */ "../core/app/assets/js/layout/header-button.js"));
 
 function HeaderButtons(props) {
+  var action = (0, _useAction.default)();
   var tools = '';
 
   if (props.buttons.length) {
@@ -3011,15 +3119,7 @@ function HeaderButtons(props) {
     text: __('Close', 'elementor'),
     icon: "eicon-close",
     className: "eps-app__close-button",
-    onClick: function onClick() {
-      if (window.top === window) {
-        // Directly.
-        window.top.location = elementorAppConfig.return_url;
-      } else {
-        // Iframe.
-        window.top.$e.run('app/close');
-      }
-    }
+    onClick: action.backToDashboard
   }), tools);
 }
 
@@ -3039,7 +3139,6 @@ HeaderButtons.defaultProps = {
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 "use strict";
-/* provided dependency */ var __ = __webpack_require__(/*! @wordpress/i18n */ "@wordpress/i18n")["__"];
 /* provided dependency */ var PropTypes = __webpack_require__(/*! prop-types */ "../node_modules/prop-types/index.js");
 
 
@@ -3051,17 +3150,22 @@ _Object$defineProperty(exports, "__esModule", {
   value: true
 });
 
-exports.default = Header;
+exports["default"] = Header;
 
 var _react = _interopRequireDefault(__webpack_require__(/*! react */ "react"));
 
 var _extends2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime-corejs2/helpers/extends */ "../node_modules/@babel/runtime-corejs2/helpers/extends.js"));
 
-var _headerButtons = _interopRequireDefault(__webpack_require__(/*! ./header-buttons */ "../core/app/assets/js/layout/header-buttons.js"));
-
 var _grid = _interopRequireDefault(__webpack_require__(/*! ../ui/grid/grid */ "../core/app/assets/js/ui/grid/grid.js"));
 
+var _headerButtons = _interopRequireDefault(__webpack_require__(/*! ./header-buttons */ "../core/app/assets/js/layout/header-buttons.js"));
+
+var _usePageTitle = _interopRequireDefault(__webpack_require__(/*! elementor-app/hooks/use-page-title */ "../core/app/assets/js/hooks/use-page-title.js"));
+
 function Header(props) {
+  (0, _usePageTitle.default)({
+    title: props.title
+  });
   var TitleTag = 'span',
       titleAttrs = {};
 
@@ -3072,10 +3176,6 @@ function Header(props) {
       target: '_self'
     };
   }
-
-  _react.default.useEffect(function () {
-    document.title = __('Elementor', 'elementor') + ' | ' + props.title;
-  });
 
   return /*#__PURE__*/_react.default.createElement(_grid.default, {
     container: true,
@@ -3122,7 +3222,7 @@ _Object$defineProperty(exports, "__esModule", {
   value: true
 });
 
-exports.default = Page;
+exports["default"] = Page;
 
 var _react = _interopRequireDefault(__webpack_require__(/*! react */ "react"));
 
@@ -3196,7 +3296,7 @@ _Object$defineProperty(exports, "__esModule", {
   value: true
 });
 
-exports.default = Sidebar;
+exports["default"] = Sidebar;
 
 var _react = _interopRequireDefault(__webpack_require__(/*! react */ "react"));
 
@@ -3230,7 +3330,7 @@ _Object$defineProperty(exports, "__esModule", {
   value: true
 });
 
-exports.default = CollapseContent;
+exports["default"] = CollapseContent;
 
 var _react = _interopRequireDefault(__webpack_require__(/*! react */ "react"));
 
@@ -3297,7 +3397,7 @@ _Object$defineProperty(exports, "__esModule", {
   value: true
 });
 
-exports.default = CollapseToggle;
+exports["default"] = CollapseToggle;
 
 var _react = _interopRequireWildcard(__webpack_require__(/*! react */ "react"));
 
@@ -3366,7 +3466,7 @@ _Object$defineProperty(exports, "__esModule", {
   value: true
 });
 
-exports.default = Collapse;
+exports["default"] = Collapse;
 
 var _react = _interopRequireWildcard(__webpack_require__(/*! react */ "react"));
 
@@ -3450,7 +3550,7 @@ _Object$defineProperty(exports, "__esModule", {
   value: true
 });
 
-exports.default = DashboardButton;
+exports["default"] = DashboardButton;
 
 var _react = _interopRequireDefault(__webpack_require__(/*! react */ "react"));
 
@@ -3505,7 +3605,7 @@ _Object$defineProperty(exports, "__esModule", {
   value: true
 });
 
-exports.default = GoProButton;
+exports["default"] = GoProButton;
 
 var _react = _interopRequireDefault(__webpack_require__(/*! react */ "react"));
 
@@ -3560,7 +3660,7 @@ _Object$defineProperty(exports, "__esModule", {
   value: true
 });
 
-exports.default = Tooltip;
+exports["default"] = Tooltip;
 
 var _slicedToArray2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime-corejs2/helpers/slicedToArray */ "../node_modules/@babel/runtime-corejs2/helpers/slicedToArray.js"));
 
@@ -3689,7 +3789,7 @@ _Object$defineProperty(exports, "__esModule", {
   value: true
 });
 
-exports.default = UploadFile;
+exports["default"] = UploadFile;
 
 var _react = _interopRequireWildcard(__webpack_require__(/*! react */ "react"));
 
@@ -3774,7 +3874,7 @@ _Object$defineProperty(exports, "__esModule", {
   value: true
 });
 
-exports.default = DropZone;
+exports["default"] = DropZone;
 
 var _react = _interopRequireDefault(__webpack_require__(/*! react */ "react"));
 
@@ -3876,7 +3976,7 @@ _Object$defineProperty(exports, "__esModule", {
   value: true
 });
 
-exports.default = void 0;
+exports["default"] = void 0;
 
 var _react = _interopRequireDefault(__webpack_require__(/*! react */ "react"));
 
@@ -3951,7 +4051,7 @@ var ErrorBoundary = /*#__PURE__*/function (_React$Component) {
   return ErrorBoundary;
 }(_react.default.Component);
 
-exports.default = ErrorBoundary;
+exports["default"] = ErrorBoundary;
 (0, _defineProperty2.default)(ErrorBoundary, "propTypes", {
   children: PropTypes.any,
   title: PropTypes.string,
@@ -3963,6 +4063,125 @@ exports.default = ErrorBoundary;
   text: __('We’re sorry, but something went wrong. Click on ‘Learn more’ and follow each of the steps to quickly solve it.', 'elementor'),
   learnMoreUrl: 'https://go.elementor.com/app-general-load-issue/'
 });
+
+/***/ }),
+
+/***/ "../core/app/assets/js/organisms/unfiltered-files-dialog.js":
+/*!******************************************************************!*\
+  !*** ../core/app/assets/js/organisms/unfiltered-files-dialog.js ***!
+  \******************************************************************/
+/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
+
+"use strict";
+/* provided dependency */ var __ = __webpack_require__(/*! @wordpress/i18n */ "@wordpress/i18n")["__"];
+/* provided dependency */ var PropTypes = __webpack_require__(/*! prop-types */ "../node_modules/prop-types/index.js");
+
+
+var _Object$defineProperty = __webpack_require__(/*! @babel/runtime-corejs2/core-js/object/define-property */ "../node_modules/@babel/runtime-corejs2/core-js/object/define-property.js");
+
+var _interopRequireDefault = __webpack_require__(/*! @babel/runtime-corejs2/helpers/interopRequireDefault */ "../node_modules/@babel/runtime-corejs2/helpers/interopRequireDefault.js");
+
+var _interopRequireWildcard = __webpack_require__(/*! @babel/runtime-corejs2/helpers/interopRequireWildcard */ "../node_modules/@babel/runtime-corejs2/helpers/interopRequireWildcard.js");
+
+_Object$defineProperty(exports, "__esModule", {
+  value: true
+});
+
+exports["default"] = UnfilteredFilesDialog;
+
+var _react = _interopRequireWildcard(__webpack_require__(/*! react */ "react"));
+
+var _stringify = _interopRequireDefault(__webpack_require__(/*! @babel/runtime-corejs2/core-js/json/stringify */ "../node_modules/@babel/runtime-corejs2/core-js/json/stringify.js"));
+
+var _slicedToArray2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime-corejs2/helpers/slicedToArray */ "../node_modules/@babel/runtime-corejs2/helpers/slicedToArray.js"));
+
+var _dialog = _interopRequireDefault(__webpack_require__(/*! elementor-app/ui/dialog/dialog */ "../core/app/assets/js/ui/dialog/dialog.js"));
+
+var _useAjax2 = _interopRequireDefault(__webpack_require__(/*! elementor-app/hooks/use-ajax */ "../core/app/assets/js/hooks/use-ajax.js"));
+
+function UnfilteredFilesDialog(props) {
+  var show = props.show,
+      setShow = props.setShow,
+      onReady = props.onReady,
+      onCancel = props.onCancel,
+      _useAjax = (0, _useAjax2.default)(),
+      ajaxState = _useAjax.ajaxState,
+      setAjax = _useAjax.setAjax,
+      _useState = (0, _react.useState)(false),
+      _useState2 = (0, _slicedToArray2.default)(_useState, 2),
+      enableUnfilteredFiles = _useState2[0],
+      setEnableUnfilteredFiles = _useState2[1],
+      _useState3 = (0, _react.useState)(false),
+      _useState4 = (0, _slicedToArray2.default)(_useState3, 2),
+      isEnableError = _useState4[0],
+      setIsEnableError = _useState4[1]; // Sending the enable unfiltered files request.
+
+
+  (0, _react.useEffect)(function () {
+    if (enableUnfilteredFiles) {
+      setShow(false);
+      setAjax({
+        data: {
+          action: 'elementor_ajax',
+          actions: (0, _stringify.default)({
+            enable_unfiltered_files_upload: {
+              action: 'enable_unfiltered_files_upload'
+            }
+          })
+        }
+      });
+    }
+  }, [enableUnfilteredFiles]); // Enabling unfiltered files ajax status.
+
+  (0, _react.useEffect)(function () {
+    switch (ajaxState.status) {
+      case 'success':
+        onReady();
+        break;
+
+      case 'error':
+        setIsEnableError(true);
+        setShow(true);
+        break;
+    }
+  }, [ajaxState]);
+
+  if (!show) {
+    return null;
+  }
+
+  return /*#__PURE__*/_react.default.createElement(_react.default.Fragment, null, isEnableError ? /*#__PURE__*/_react.default.createElement(_dialog.default, {
+    title: __('Sorry, something went wrong.', 'elementor'),
+    text: __('Nothing to worry about, just continue without importing SVGs or go back and start the import again.', 'elementor'),
+    approveButtonColor: "link",
+    approveButtonText: __('Continue', 'elementor'),
+    approveButtonOnClick: onReady,
+    dismissButtonText: __('Go back', 'elementor'),
+    dismissButtonOnClick: onCancel,
+    onClose: onCancel
+  }) : /*#__PURE__*/_react.default.createElement(_dialog.default, {
+    title: __('First, enable unfiltered file uploads.', 'elementor'),
+    text: __('This allows Elementor to scan your SVGs for malicious content. Otherwise, you can skip any SVGs in this import.', 'elementor'),
+    approveButtonColor: "link",
+    approveButtonText: __('Enable', 'elementor'),
+    approveButtonOnClick: function approveButtonOnClick() {
+      return setEnableUnfilteredFiles(true);
+    },
+    dismissButtonText: __('Skip', 'elementor'),
+    dismissButtonOnClick: onReady,
+    onClose: onReady
+  }));
+}
+
+UnfilteredFilesDialog.propTypes = {
+  show: PropTypes.bool,
+  setShow: PropTypes.func.isRequired,
+  onReady: PropTypes.func.isRequired,
+  onCancel: PropTypes.func.isRequired
+};
+UnfilteredFilesDialog.defaultProps = {
+  show: false
+};
 
 /***/ }),
 
@@ -3984,7 +4203,7 @@ _Object$defineProperty(exports, "__esModule", {
   value: true
 });
 
-exports.default = WizardFooter;
+exports["default"] = WizardFooter;
 
 var _react = _interopRequireDefault(__webpack_require__(/*! react */ "react"));
 
@@ -4042,7 +4261,7 @@ _Object$defineProperty(exports, "__esModule", {
   value: true
 });
 
-exports.default = void 0;
+exports.hooks = exports.components = exports.appUi = void 0;
 
 var _addNewButton = _interopRequireDefault(__webpack_require__(/*! ./ui/molecules/add-new-button */ "../core/app/assets/js/ui/molecules/add-new-button.js"));
 
@@ -4108,8 +4327,21 @@ var _uploadFile = _interopRequireDefault(__webpack_require__(/*! ./molecules/upl
 
 var _inlineLink = _interopRequireDefault(__webpack_require__(/*! ./ui/molecules/inline-link */ "../core/app/assets/js/ui/molecules/inline-link.js"));
 
+var _unfilteredFilesDialog = _interopRequireDefault(__webpack_require__(/*! ./organisms/unfiltered-files-dialog.js */ "../core/app/assets/js/organisms/unfiltered-files-dialog.js"));
+
+var _useAjax = _interopRequireDefault(__webpack_require__(/*! ./hooks/use-ajax */ "../core/app/assets/js/hooks/use-ajax.js"));
+
+var _useAction = _interopRequireDefault(__webpack_require__(/*! ./hooks/use-action */ "../core/app/assets/js/hooks/use-action.js"));
+
+var _usePageTitle = _interopRequireDefault(__webpack_require__(/*! ./hooks/use-page-title */ "../core/app/assets/js/hooks/use-page-title.js"));
+
+var _useQueryParams = _interopRequireDefault(__webpack_require__(/*! ./hooks/use-query-params */ "../core/app/assets/js/hooks/use-query-params.js"));
+
 // Alphabetical order.
-var _default = {
+// App UI
+// Components
+// Hooks
+var appUi = {
   AddNewButton: _addNewButton.default,
   Box: _box.default,
   Button: _button.default,
@@ -4144,7 +4376,18 @@ var _default = {
   UploadFile: _uploadFile.default,
   InlineLink: _inlineLink.default
 };
-exports.default = _default;
+exports.appUi = appUi;
+var components = {
+  UnfilteredFilesDialog: _unfilteredFilesDialog.default
+};
+exports.components = components;
+var hooks = {
+  useAjax: _useAjax.default,
+  useAction: _useAction.default,
+  usePageTitle: _usePageTitle.default,
+  useQueryParams: _useQueryParams.default
+};
+exports.hooks = hooks;
 
 /***/ }),
 
@@ -4166,7 +4409,7 @@ _Object$defineProperty(exports, "__esModule", {
   value: true
 });
 
-exports.default = NotFound;
+exports["default"] = NotFound;
 
 var _react = _interopRequireDefault(__webpack_require__(/*! react */ "react"));
 
@@ -4202,7 +4445,7 @@ _Object$defineProperty(exports, "__esModule", {
   value: true
 });
 
-exports.default = void 0;
+exports["default"] = void 0;
 
 __webpack_require__(/*! core-js/modules/es6.array.map.js */ "../node_modules/core-js/modules/es6.array.map.js");
 
@@ -4258,7 +4501,7 @@ window.elementorAppPackages = {
   router: router
 };
 var _default = router;
-exports.default = _default;
+exports["default"] = _default;
 
 /***/ }),
 
@@ -4280,7 +4523,7 @@ _Object$defineProperty(exports, "__esModule", {
   value: true
 });
 
-exports.default = Box;
+exports["default"] = Box;
 
 var _react = _interopRequireDefault(__webpack_require__(/*! react */ "react"));
 
@@ -4333,7 +4576,7 @@ _Object$defineProperty(exports, "__esModule", {
   value: true
 });
 
-exports.default = Checkbox;
+exports["default"] = Checkbox;
 
 var _react = _interopRequireDefault(__webpack_require__(/*! react */ "react"));
 
@@ -4388,7 +4631,7 @@ _Object$defineProperty(exports, "__esModule", {
   value: true
 });
 
-exports.default = CssGrid;
+exports["default"] = CssGrid;
 
 var _react = _interopRequireDefault(__webpack_require__(/*! react */ "react"));
 
@@ -4444,7 +4687,7 @@ _Object$defineProperty(exports, "__esModule", {
   value: true
 });
 
-exports.default = DragDrop;
+exports["default"] = DragDrop;
 
 var _react = _interopRequireWildcard(__webpack_require__(/*! react */ "react"));
 
@@ -4539,7 +4782,7 @@ _Object$defineProperty(exports, "__esModule", {
   value: true
 });
 
-exports.default = Heading;
+exports["default"] = Heading;
 
 var _react = _interopRequireDefault(__webpack_require__(/*! react */ "react"));
 
@@ -4593,7 +4836,7 @@ _Object$defineProperty(exports, "__esModule", {
   value: true
 });
 
-exports.default = Icon;
+exports["default"] = Icon;
 
 var _react = _interopRequireDefault(__webpack_require__(/*! react */ "react"));
 
@@ -4630,7 +4873,7 @@ _Object$defineProperty(exports, "__esModule", {
   value: true
 });
 
-exports.default = Select;
+exports["default"] = Select;
 
 var _react = _interopRequireDefault(__webpack_require__(/*! react */ "react"));
 
@@ -4692,7 +4935,7 @@ _Object$defineProperty(exports, "__esModule", {
   value: true
 });
 
-exports.default = TextField;
+exports["default"] = TextField;
 
 var _react = _interopRequireDefault(__webpack_require__(/*! react */ "react"));
 
@@ -4754,7 +4997,7 @@ _Object$defineProperty(exports, "__esModule", {
   value: true
 });
 
-exports.default = Text;
+exports["default"] = Text;
 
 var _react = _interopRequireDefault(__webpack_require__(/*! react */ "react"));
 
@@ -4806,7 +5049,7 @@ _Object$defineProperty(exports, "__esModule", {
   value: true
 });
 
-exports.default = CardBody;
+exports["default"] = CardBody;
 
 var _react = _interopRequireDefault(__webpack_require__(/*! react */ "react"));
 
@@ -4861,7 +5104,7 @@ _Object$defineProperty(exports, "__esModule", {
   value: true
 });
 
-exports.default = CardDivider;
+exports["default"] = CardDivider;
 
 var _react = _interopRequireDefault(__webpack_require__(/*! react */ "react"));
 
@@ -4904,7 +5147,7 @@ _Object$defineProperty(exports, "__esModule", {
   value: true
 });
 
-exports.default = CardFooter;
+exports["default"] = CardFooter;
 
 var _react = _interopRequireDefault(__webpack_require__(/*! react */ "react"));
 
@@ -4959,7 +5202,7 @@ _Object$defineProperty(exports, "__esModule", {
   value: true
 });
 
-exports.default = CardHeader;
+exports["default"] = CardHeader;
 
 var _react = _interopRequireDefault(__webpack_require__(/*! react */ "react"));
 
@@ -5014,7 +5257,7 @@ _Object$defineProperty(exports, "__esModule", {
   value: true
 });
 
-exports.default = CardHeadline;
+exports["default"] = CardHeadline;
 
 var _react = _interopRequireDefault(__webpack_require__(/*! react */ "react"));
 
@@ -5058,7 +5301,7 @@ _Object$defineProperty(exports, "__esModule", {
   value: true
 });
 
-exports.default = CardImage;
+exports["default"] = CardImage;
 
 var _react = _interopRequireDefault(__webpack_require__(/*! react */ "react"));
 
@@ -5107,7 +5350,7 @@ _Object$defineProperty(exports, "__esModule", {
   value: true
 });
 
-exports.default = CardOverlay;
+exports["default"] = CardOverlay;
 
 var _react = _interopRequireDefault(__webpack_require__(/*! react */ "react"));
 
@@ -5147,7 +5390,7 @@ _Object$defineProperty(exports, "__esModule", {
   value: true
 });
 
-exports.default = void 0;
+exports["default"] = void 0;
 
 var _react = _interopRequireDefault(__webpack_require__(/*! react */ "react"));
 
@@ -5191,7 +5434,7 @@ Card.Footer = _cardFooter.default;
 Card.Headline = _cardHeadline.default;
 Card.Divider = _cardDivider.default;
 var _default = Card;
-exports.default = _default;
+exports["default"] = _default;
 
 /***/ }),
 
@@ -5213,7 +5456,7 @@ _Object$defineProperty(exports, "__esModule", {
   value: true
 });
 
-exports.default = DialogActions;
+exports["default"] = DialogActions;
 
 var _react = _interopRequireDefault(__webpack_require__(/*! react */ "react"));
 
@@ -5247,7 +5490,7 @@ _Object$defineProperty(exports, "__esModule", {
   value: true
 });
 
-exports.default = DialogButton;
+exports["default"] = DialogButton;
 
 var _react = _interopRequireDefault(__webpack_require__(/*! react */ "react"));
 
@@ -5292,7 +5535,7 @@ _Object$defineProperty(exports, "__esModule", {
   value: true
 });
 
-exports.default = DialogContent;
+exports["default"] = DialogContent;
 
 var _react = _interopRequireDefault(__webpack_require__(/*! react */ "react"));
 
@@ -5325,7 +5568,7 @@ _Object$defineProperty(exports, "__esModule", {
   value: true
 });
 
-exports.default = DialogText;
+exports["default"] = DialogText;
 
 var _react = _interopRequireDefault(__webpack_require__(/*! react */ "react"));
 
@@ -5369,7 +5612,7 @@ _Object$defineProperty(exports, "__esModule", {
   value: true
 });
 
-exports.default = DialogTitle;
+exports["default"] = DialogTitle;
 
 var _react = _interopRequireDefault(__webpack_require__(/*! react */ "react"));
 
@@ -5415,7 +5658,7 @@ _Object$defineProperty(exports, "__esModule", {
   value: true
 });
 
-exports.default = DialogWrapper;
+exports["default"] = DialogWrapper;
 
 var _react = _interopRequireDefault(__webpack_require__(/*! react */ "react"));
 
@@ -5468,7 +5711,7 @@ _Object$defineProperty(exports, "__esModule", {
   value: true
 });
 
-exports.default = Dialog;
+exports["default"] = Dialog;
 
 var _react = _interopRequireDefault(__webpack_require__(/*! react */ "react"));
 
@@ -5554,7 +5797,7 @@ _Object$defineProperty(exports, "__esModule", {
   value: true
 });
 
-exports.default = Grid;
+exports["default"] = Grid;
 
 var _react = _interopRequireDefault(__webpack_require__(/*! react */ "react"));
 
@@ -5675,7 +5918,7 @@ _Object$defineProperty(exports, "__esModule", {
   value: true
 });
 
-exports.default = void 0;
+exports["default"] = void 0;
 
 var _classCallCheck2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime-corejs2/helpers/classCallCheck */ "../node_modules/@babel/runtime-corejs2/helpers/classCallCheck.js"));
 
@@ -5717,7 +5960,7 @@ var SideMenuItem = /*#__PURE__*/function (_BaseButton) {
   return SideMenuItem;
 }(_button.default);
 
-exports.default = SideMenuItem;
+exports["default"] = SideMenuItem;
 
 /***/ }),
 
@@ -5739,7 +5982,7 @@ _Object$defineProperty(exports, "__esModule", {
   value: true
 });
 
-exports.default = Menu;
+exports["default"] = Menu;
 
 var _react = _interopRequireDefault(__webpack_require__(/*! react */ "react"));
 
@@ -5828,7 +6071,7 @@ _Object$defineProperty(exports, "__esModule", {
   value: true
 });
 
-exports.default = ModalSection;
+exports["default"] = ModalSection;
 
 var _react = _interopRequireDefault(__webpack_require__(/*! react */ "react"));
 
@@ -5869,7 +6112,7 @@ _Object$defineProperty(exports, "__esModule", {
   value: true
 });
 
-exports.default = ModalTip;
+exports["default"] = ModalTip;
 
 var _react = _interopRequireDefault(__webpack_require__(/*! react */ "react"));
 
@@ -5923,8 +6166,8 @@ _Object$defineProperty(exports, "__esModule", {
   value: true
 });
 
-exports.default = ModalProvider;
 exports.Modal = void 0;
+exports["default"] = ModalProvider;
 
 var _react = _interopRequireWildcard(__webpack_require__(/*! react */ "react"));
 
@@ -6099,7 +6342,7 @@ _Object$defineProperty(exports, "__esModule", {
   value: true
 });
 
-exports.default = void 0;
+exports["default"] = void 0;
 
 var _objectSpread2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime-corejs2/helpers/objectSpread2 */ "../node_modules/@babel/runtime-corejs2/helpers/objectSpread2.js"));
 
@@ -6142,7 +6385,7 @@ var AddNewButton = /*#__PURE__*/function (_Button) {
   return AddNewButton;
 }(_button.default);
 
-exports.default = AddNewButton;
+exports["default"] = AddNewButton;
 (0, _defineProperty2.default)(AddNewButton, "propTypes", (0, _objectSpread2.default)((0, _objectSpread2.default)({}, _button.default.propTypes), {}, {
   text: PropTypes.string,
   size: PropTypes.string
@@ -6173,7 +6416,7 @@ _Object$defineProperty(exports, "__esModule", {
   value: true
 });
 
-exports.default = void 0;
+exports["default"] = void 0;
 
 var _react = _interopRequireDefault(__webpack_require__(/*! react */ "react"));
 
@@ -6328,7 +6571,7 @@ var Button = /*#__PURE__*/function (_React$Component) {
   return Button;
 }(_react.default.Component);
 
-exports.default = Button;
+exports["default"] = Button;
 (0, _defineProperty2.default)(Button, "propTypes", {
   text: PropTypes.string.isRequired,
   hideText: PropTypes.bool,
@@ -6372,7 +6615,7 @@ _Object$defineProperty(exports, "__esModule", {
   value: true
 });
 
-exports.default = InlineLink;
+exports["default"] = InlineLink;
 
 var _react = _interopRequireDefault(__webpack_require__(/*! react */ "react"));
 
@@ -6464,7 +6707,7 @@ _Object$defineProperty(exports, "__esModule", {
   value: true
 });
 
-exports.default = ListItem;
+exports["default"] = ListItem;
 
 var _react = _interopRequireDefault(__webpack_require__(/*! react */ "react"));
 
@@ -6517,7 +6760,7 @@ _Object$defineProperty(exports, "__esModule", {
   value: true
 });
 
-exports.default = List;
+exports["default"] = List;
 
 var _react = _interopRequireDefault(__webpack_require__(/*! react */ "react"));
 
@@ -6581,7 +6824,7 @@ _Object$defineProperty(exports, "__esModule", {
   value: true
 });
 
-exports.default = Notice;
+exports["default"] = Notice;
 
 var _react = _interopRequireDefault(__webpack_require__(/*! react */ "react"));
 
@@ -6637,7 +6880,7 @@ _Object$defineProperty(exports, "__esModule", {
   value: true
 });
 
-exports.default = Popover;
+exports["default"] = Popover;
 
 var _react = _interopRequireDefault(__webpack_require__(/*! react */ "react"));
 
@@ -6682,7 +6925,7 @@ _Object$defineProperty(exports, "__esModule", {
   value: true
 });
 
-exports.default = Select2;
+exports["default"] = Select2;
 
 var _react = _interopRequireDefault(__webpack_require__(/*! react */ "react"));
 
@@ -6777,7 +7020,7 @@ _Object$defineProperty(exports, "__esModule", {
   value: true
 });
 
-exports.isOneOf = exports.rgbToHex = exports.stringToRemValues = exports.arrayToClassName = exports.pxToRem = void 0;
+exports.stringToRemValues = exports.rgbToHex = exports.pxToRem = exports.isOneOf = exports.arrayToClassName = void 0;
 
 var _entries = _interopRequireDefault(__webpack_require__(/*! @babel/runtime-corejs2/core-js/object/entries */ "../node_modules/@babel/runtime-corejs2/core-js/object/entries.js"));
 
@@ -6869,14 +7112,18 @@ _Object$defineProperty(exports, "__esModule", {
   value: true
 });
 
-exports.default = ContextProvider;
 exports.Context = void 0;
+exports["default"] = ContextProvider;
 
 var _react = _interopRequireWildcard(__webpack_require__(/*! react */ "react"));
+
+__webpack_require__(/*! core-js/modules/es6.array.map.js */ "../node_modules/core-js/modules/es6.array.map.js");
 
 var _slicedToArray2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime-corejs2/helpers/slicedToArray */ "../node_modules/@babel/runtime-corejs2/helpers/slicedToArray.js"));
 
 var _contextReducer = __webpack_require__(/*! ./context-reducer */ "../core/app/modules/import-export/assets/js/context/context-reducer.js");
+
+var _kitContentData = _interopRequireDefault(__webpack_require__(/*! ../shared/kit-content-data/kit-content-data */ "../core/app/modules/import-export/assets/js/shared/kit-content-data/kit-content-data.js"));
 
 var Context = _react.default.createContext();
 
@@ -6884,16 +7131,20 @@ exports.Context = Context;
 
 function ContextProvider(props) {
   var initialState = {
-    includes: [],
+    includes: _kitContentData.default.map(function (item) {
+      return item.type;
+    }),
     downloadUrl: '',
-    fileResponse: null,
     file: null,
     overrideConditions: [],
     referrer: null,
     kitInfo: {
       title: null,
       description: null
-    }
+    },
+    uploadedData: null,
+    importedData: null,
+    exportedData: null
   },
       _useReducer = (0, _react.useReducer)(_contextReducer.reducer, initialState),
       _useReducer2 = (0, _slicedToArray2.default)(_useReducer, 2),
@@ -6989,11 +7240,6 @@ var reducer = function reducer(state, action) {
     case 'REMOVE_INCLUDE':
       return ReducerActions.updateArray(state, 'includes', action.payload, 'remove');
 
-    case 'SET_FILE_RESPONSE':
-      return (0, _objectSpread4.default)((0, _objectSpread4.default)({}, state), {}, {
-        fileResponse: action.payload
-      });
-
     case 'SET_FILE':
       return (0, _objectSpread4.default)((0, _objectSpread4.default)({}, state), {}, {
         file: action.payload
@@ -7029,6 +7275,21 @@ var reducer = function reducer(state, action) {
         includes: action.payload
       });
 
+    case 'SET_UPLOADED_DATA':
+      return (0, _objectSpread4.default)((0, _objectSpread4.default)({}, state), {}, {
+        uploadedData: action.payload
+      });
+
+    case 'SET_IMPORTED_DATA':
+      return (0, _objectSpread4.default)((0, _objectSpread4.default)({}, state), {}, {
+        importedData: action.payload
+      });
+
+    case 'SET_EXPORTED_DATA':
+      return (0, _objectSpread4.default)((0, _objectSpread4.default)({}, state), {}, {
+        exportedData: action.payload
+      });
+
     default:
       return state;
   }
@@ -7055,7 +7316,7 @@ _Object$defineProperty(exports, "__esModule", {
   value: true
 });
 
-exports.default = Export;
+exports["default"] = Export;
 
 var _react = _interopRequireDefault(__webpack_require__(/*! react */ "react"));
 
@@ -7085,6 +7346,127 @@ function Export() {
 
 /***/ }),
 
+/***/ "../core/app/modules/import-export/assets/js/hooks/use-kit.js":
+/*!********************************************************************!*\
+  !*** ../core/app/modules/import-export/assets/js/hooks/use-kit.js ***!
+  \********************************************************************/
+/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
+
+"use strict";
+
+
+var _Object$defineProperty = __webpack_require__(/*! @babel/runtime-corejs2/core-js/object/define-property */ "../node_modules/@babel/runtime-corejs2/core-js/object/define-property.js");
+
+var _interopRequireDefault = __webpack_require__(/*! @babel/runtime-corejs2/helpers/interopRequireDefault */ "../node_modules/@babel/runtime-corejs2/helpers/interopRequireDefault.js");
+
+_Object$defineProperty(exports, "__esModule", {
+  value: true
+});
+
+exports["default"] = useKit;
+
+var _stringify = _interopRequireDefault(__webpack_require__(/*! @babel/runtime-corejs2/core-js/json/stringify */ "../node_modules/@babel/runtime-corejs2/core-js/json/stringify.js"));
+
+var _objectSpread2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime-corejs2/helpers/objectSpread2 */ "../node_modules/@babel/runtime-corejs2/helpers/objectSpread2.js"));
+
+var _slicedToArray2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime-corejs2/helpers/slicedToArray */ "../node_modules/@babel/runtime-corejs2/helpers/slicedToArray.js"));
+
+var _react = __webpack_require__(/*! react */ "react");
+
+var _useAjax2 = _interopRequireDefault(__webpack_require__(/*! elementor-app/hooks/use-ajax */ "../core/app/assets/js/hooks/use-ajax.js"));
+
+var KIT_STATUS_MAP = {
+  INITIAL: 'initial',
+  UPLOADED: 'uploaded',
+  IMPORTED: 'imported',
+  ERROR: 'error'
+};
+
+function useKit() {
+  var _useAjax = (0, _useAjax2.default)(),
+      ajaxState = _useAjax.ajaxState,
+      setAjax = _useAjax.setAjax,
+      ajaxActions = _useAjax.ajaxActions,
+      kitStateInitialState = {
+    status: KIT_STATUS_MAP.INITIAL,
+    data: null
+  },
+      _useState = (0, _react.useState)(kitStateInitialState),
+      _useState2 = (0, _slicedToArray2.default)(_useState, 2),
+      kitState = _useState2[0],
+      setKitState = _useState2[1],
+      getAjaxConfig = function getAjaxConfig() {
+    return {
+      data: {
+        action: 'elementor_import_kit'
+      }
+    };
+  },
+      uploadKit = function uploadKit(_ref) {
+    var file = _ref.file;
+    var ajaxConfig = getAjaxConfig();
+    ajaxConfig.data.e_import_file = file;
+    ajaxConfig.data.data = (0, _stringify.default)({
+      stage: 1
+    });
+    setAjax(ajaxConfig);
+  },
+      importKit = function importKit(_ref2) {
+    var session = _ref2.session,
+        include = _ref2.include,
+        overrideConditions = _ref2.overrideConditions,
+        referrer = _ref2.referrer;
+    var ajaxConfig = getAjaxConfig();
+    ajaxConfig.data.data = {
+      stage: 2,
+      session: session,
+      include: include,
+      overrideConditions: overrideConditions
+    };
+
+    if (referrer) {
+      ajaxConfig.data.data.referrer = referrer;
+    }
+
+    ajaxConfig.data.data = (0, _stringify.default)(ajaxConfig.data.data);
+    setAjax(ajaxConfig);
+  },
+      reset = function reset() {
+    return ajaxActions.reset();
+  };
+
+  (0, _react.useEffect)(function () {
+    if ('initial' !== ajaxState.status) {
+      var newState = {};
+
+      if ('success' === ajaxState.status) {
+        var _ajaxState$response;
+
+        newState.status = (_ajaxState$response = ajaxState.response) !== null && _ajaxState$response !== void 0 && _ajaxState$response.manifest ? KIT_STATUS_MAP.UPLOADED : KIT_STATUS_MAP.IMPORTED;
+      } else if ('error' === ajaxState.status) {
+        newState.status = KIT_STATUS_MAP.ERROR;
+      } // The response is required even if an error occurred, in order to detect the error type.
+
+
+      newState.data = ajaxState.response || {};
+      setKitState(function (prevState) {
+        return (0, _objectSpread2.default)((0, _objectSpread2.default)({}, prevState), newState);
+      });
+    }
+  }, [ajaxState.status]);
+  return {
+    kitState: kitState,
+    KIT_STATUS_MAP: KIT_STATUS_MAP,
+    kitActions: {
+      upload: uploadKit,
+      import: importKit,
+      reset: reset
+    }
+  };
+}
+
+/***/ }),
+
 /***/ "../core/app/modules/import-export/assets/js/import.js":
 /*!*************************************************************!*\
   !*** ../core/app/modules/import-export/assets/js/import.js ***!
@@ -7102,7 +7484,7 @@ _Object$defineProperty(exports, "__esModule", {
   value: true
 });
 
-exports.default = Import;
+exports["default"] = Import;
 
 var _react = _interopRequireDefault(__webpack_require__(/*! react */ "react"));
 
@@ -7157,7 +7539,7 @@ _Object$defineProperty(exports, "__esModule", {
   value: true
 });
 
-exports.default = void 0;
+exports["default"] = void 0;
 
 var _createForOfIteratorHelper2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime-corejs2/helpers/createForOfIteratorHelper */ "../node_modules/@babel/runtime-corejs2/helpers/createForOfIteratorHelper.js"));
 
@@ -7197,7 +7579,7 @@ var ImportExport = function ImportExport() {
   }
 };
 
-exports.default = ImportExport;
+exports["default"] = ImportExport;
 
 /***/ }),
 
@@ -7218,7 +7600,7 @@ _Object$defineProperty(exports, "__esModule", {
   value: true
 });
 
-exports.default = void 0;
+exports["default"] = void 0;
 
 var _layout = _interopRequireDefault(__webpack_require__(/*! ./templates/layout */ "../core/app/modules/import-export/assets/js/templates/layout.js"));
 
@@ -7229,7 +7611,7 @@ var _default = {
   Layout: _layout.default,
   Module: _module.default
 };
-exports.default = _default;
+exports["default"] = _default;
 
 /***/ }),
 
@@ -7253,9 +7635,11 @@ _Object$defineProperty(exports, "__esModule", {
   value: true
 });
 
-exports.default = ExportComplete;
+exports["default"] = ExportComplete;
 
 var _react = _interopRequireWildcard(__webpack_require__(/*! react */ "react"));
+
+var _router = __webpack_require__(/*! @reach/router */ "../node_modules/@reach/router/es/index.js");
 
 var _contextProvider = __webpack_require__(/*! ../../../context/context-provider */ "../core/app/modules/import-export/assets/js/context/context-provider.js");
 
@@ -7274,9 +7658,10 @@ var _dashboardButton = _interopRequireDefault(__webpack_require__(/*! elementor-
 __webpack_require__(/*! ./export-complete.scss */ "../core/app/modules/import-export/assets/js/pages/export/export-complete/export-complete.scss");
 
 function ExportComplete() {
-  var _context$data$fileRes;
+  var _context$data$exporte;
 
   var context = (0, _react.useContext)(_contextProvider.Context),
+      navigate = (0, _router.useNavigate)(),
       downloadLink = (0, _react.useRef)(null),
       getFooter = function getFooter() {
     return /*#__PURE__*/_react.default.createElement(_wizardFooter.default, {
@@ -7287,7 +7672,7 @@ function ExportComplete() {
       downloadFile = function downloadFile() {
     if (!downloadLink.current) {
       var link = document.createElement('a');
-      link.href = 'data:text/plain;base64,' + context.data.fileResponse.file;
+      link.href = 'data:text/plain;base64,' + context.data.exportedData.file;
       link.download = 'elementor-kit.zip';
       downloadLink.current = link;
     }
@@ -7304,6 +7689,8 @@ function ExportComplete() {
   (0, _react.useEffect)(function () {
     if (context.data.downloadUrl) {
       downloadFile();
+    } else {
+      navigate('/export');
     }
   }, [context.data.downloadUrl]);
   return /*#__PURE__*/_react.default.createElement(_layout.default, {
@@ -7315,7 +7702,7 @@ function ExportComplete() {
     description: __('Now you can import this kit and use it on other sites.', 'elementor'),
     notice: /*#__PURE__*/_react.default.createElement(_react.default.Fragment, null, __('Download not working?', 'elementor'), " ", getDownloadLink(), " ", __('to download', 'elementor'))
   }, /*#__PURE__*/_react.default.createElement(_kitData.default, {
-    data: (_context$data$fileRes = context.data.fileResponse) === null || _context$data$fileRes === void 0 ? void 0 : _context$data$fileRes.manifest
+    data: (_context$data$exporte = context.data.exportedData) === null || _context$data$exporte === void 0 ? void 0 : _context$data$exporte.manifest
   })));
 }
 
@@ -7342,7 +7729,7 @@ _Object$defineProperty(exports, "__esModule", {
   value: true
 });
 
-exports.default = ExportButton;
+exports["default"] = ExportButton;
 
 var _react = _interopRequireWildcard(__webpack_require__(/*! react */ "react"));
 
@@ -7425,7 +7812,7 @@ _Object$defineProperty(exports, "__esModule", {
   value: true
 });
 
-exports.default = KitDescription;
+exports["default"] = KitDescription;
 
 var _react = _interopRequireWildcard(__webpack_require__(/*! react */ "react"));
 
@@ -7469,7 +7856,7 @@ _Object$defineProperty(exports, "__esModule", {
   value: true
 });
 
-exports.default = KitInfoModal;
+exports["default"] = KitInfoModal;
 
 var _react = _interopRequireDefault(__webpack_require__(/*! react */ "react"));
 
@@ -7514,7 +7901,7 @@ _Object$defineProperty(exports, "__esModule", {
   value: true
 });
 
-exports.default = KitName;
+exports["default"] = KitName;
 
 var _react = _interopRequireWildcard(__webpack_require__(/*! react */ "react"));
 
@@ -7558,7 +7945,7 @@ _Object$defineProperty(exports, "__esModule", {
   value: true
 });
 
-exports.default = ExportKit;
+exports["default"] = ExportKit;
 
 var _slicedToArray2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime-corejs2/helpers/slicedToArray */ "../node_modules/@babel/runtime-corejs2/helpers/slicedToArray.js"));
 
@@ -7694,9 +8081,11 @@ _Object$defineProperty(exports, "__esModule", {
   value: true
 });
 
-exports.default = ExportProcess;
+exports["default"] = ExportProcess;
 
 var _react = _interopRequireWildcard(__webpack_require__(/*! react */ "react"));
+
+var _slicedToArray2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime-corejs2/helpers/slicedToArray */ "../node_modules/@babel/runtime-corejs2/helpers/slicedToArray.js"));
 
 var _router = __webpack_require__(/*! @reach/router */ "../node_modules/@reach/router/es/index.js");
 
@@ -7712,24 +8101,12 @@ function ExportProcess() {
   var _useAjax = (0, _useAjax2.default)(),
       ajaxState = _useAjax.ajaxState,
       setAjax = _useAjax.setAjax,
+      _useState = (0, _react.useState)(''),
+      _useState2 = (0, _slicedToArray2.default)(_useState, 2),
+      errorType = _useState2[0],
+      setErrorType = _useState2[1],
       context = (0, _react.useContext)(_contextProvider.Context),
       navigate = (0, _router.useNavigate)(),
-      onLoad = function onLoad() {
-    if (context.data.downloadUrl) {
-      setAjax({
-        url: context.data.downloadUrl,
-        headers: {
-          'Content-Type': 'application/json'
-        }
-      });
-    }
-  },
-      onSuccess = function onSuccess() {
-    return context.dispatch({
-      type: 'SET_FILE_RESPONSE',
-      payload: ajaxState.response
-    });
-  },
       onDialogDismiss = function onDialogDismiss() {
     context.dispatch({
       type: 'SET_DOWNLOAD_URL',
@@ -7739,19 +8116,37 @@ function ExportProcess() {
   };
 
   (0, _react.useEffect)(function () {
-    if (context.data.fileResponse) {
+    if (context.data.downloadUrl) {
+      setAjax({
+        url: context.data.downloadUrl,
+        headers: {
+          'Content-Type': 'application/json'
+        }
+      });
+    } else {
+      navigate('/export');
+    }
+  }, []);
+  (0, _react.useEffect)(function () {
+    if ('success' === ajaxState.status) {
+      context.dispatch({
+        type: 'SET_EXPORTED_DATA',
+        payload: ajaxState.response
+      });
+    } else if ('error' === ajaxState.status) {
+      setErrorType(ajaxState.response);
+    }
+  }, [ajaxState.status]);
+  (0, _react.useEffect)(function () {
+    if (context.data.exportedData) {
       navigate('export/complete');
     }
-  }, [context.data.fileResponse]);
+  }, [context.data.exportedData]);
   return /*#__PURE__*/_react.default.createElement(_layout.default, {
     type: "export"
   }, /*#__PURE__*/_react.default.createElement(_fileProcess.default, {
-    status: ajaxState.status,
-    onLoad: onLoad,
-    onSuccess: onSuccess,
-    onDialogApprove: function onDialogApprove() {
-      return window.open('https://elementor.com/help/export-kit?utm_source=import-export&utm_medium=wp-dash&utm_campaign=learn', '_blank');
-    },
+    errorType: errorType,
+    onDialogApprove: onDialogDismiss,
     onDialogDismiss: onDialogDismiss
   }));
 }
@@ -7778,7 +8173,7 @@ _Object$defineProperty(exports, "__esModule", {
   value: true
 });
 
-exports.default = ImportComplete;
+exports["default"] = ImportComplete;
 
 var _react = _interopRequireWildcard(__webpack_require__(/*! react */ "react"));
 
@@ -7849,12 +8244,12 @@ function ImportComplete() {
     return kitWPContent;
   },
       getKitData = function getKitData() {
-    if (!context.data.fileResponse) {
+    if (!context.data.uploadedData || !context.data.importedData) {
       return {};
     }
 
-    var manifest = context.data.fileResponse.stage1.manifest,
-        importedData = context.data.fileResponse.stage2;
+    var manifest = context.data.uploadedData.manifest,
+        importedData = context.data.importedData;
     return {
       templates: getTemplates(manifest.templates, importedData),
       content: getContent(manifest.content, importedData),
@@ -7901,7 +8296,7 @@ _Object$defineProperty(exports, "__esModule", {
   value: true
 });
 
-exports.default = ImportButton;
+exports["default"] = ImportButton;
 
 var _react = _interopRequireWildcard(__webpack_require__(/*! react */ "react"));
 
@@ -7934,7 +8329,7 @@ function ImportButton() {
     color: isImportAllowed ? 'primary' : 'disabled',
     onClick: function onClick() {
       if (isImportAllowed) {
-        if (context.data.includes.includes('templates') && context.data.fileResponse.stage1.conflicts) {
+        if (context.data.includes.includes('templates') && context.data.uploadedData.conflicts) {
           navigate('import/resolver');
         } else {
           navigate('import/process');
@@ -7970,7 +8365,7 @@ _Object$defineProperty(exports, "__esModule", {
   value: true
 });
 
-exports.default = ImportContent;
+exports["default"] = ImportContent;
 
 var _react = _interopRequireWildcard(__webpack_require__(/*! react */ "react"));
 
@@ -7993,7 +8388,7 @@ var _wizardFooter = _interopRequireDefault(__webpack_require__(/*! elementor-app
 var _importButton = _interopRequireDefault(__webpack_require__(/*! ./components/import-button/import-button */ "../core/app/modules/import-export/assets/js/pages/import/import-content/components/import-button/import-button.js"));
 
 function ImportContent() {
-  var _context$data$fileRes, _context$data$fileRes2;
+  var _context$data$uploade;
 
   var context = (0, _react.useContext)(_contextProvider.Context),
       navigate = (0, _router.useNavigate)(),
@@ -8035,7 +8430,7 @@ function ImportContent() {
       key: "description-secondary-line"
     }, __('By default, all of your components will be imported.', 'elementor'), " ", getLearnMoreLink())]
   }), /*#__PURE__*/_react.default.createElement(_kitContent.default, {
-    manifest: (_context$data$fileRes = context.data.fileResponse) === null || _context$data$fileRes === void 0 ? void 0 : (_context$data$fileRes2 = _context$data$fileRes.stage1) === null || _context$data$fileRes2 === void 0 ? void 0 : _context$data$fileRes2.manifest
+    manifest: (_context$data$uploade = context.data.uploadedData) === null || _context$data$uploade === void 0 ? void 0 : _context$data$uploade.manifest
   })));
 }
 
@@ -8061,13 +8456,9 @@ _Object$defineProperty(exports, "__esModule", {
   value: true
 });
 
-exports.default = ImportKit;
+exports["default"] = ImportKit;
 
 var _react = _interopRequireWildcard(__webpack_require__(/*! react */ "react"));
-
-var _stringify = _interopRequireDefault(__webpack_require__(/*! @babel/runtime-corejs2/core-js/json/stringify */ "../node_modules/@babel/runtime-corejs2/core-js/json/stringify.js"));
-
-__webpack_require__(/*! core-js/modules/es6.regexp.match.js */ "../node_modules/core-js/modules/es6.regexp.match.js");
 
 var _slicedToArray2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime-corejs2/helpers/slicedToArray */ "../node_modules/@babel/runtime-corejs2/helpers/slicedToArray.js"));
 
@@ -8079,7 +8470,7 @@ var _layout = _interopRequireDefault(__webpack_require__(/*! ../../../templates/
 
 var _pageHeader = _interopRequireDefault(__webpack_require__(/*! ../../../ui/page-header/page-header */ "../core/app/modules/import-export/assets/js/ui/page-header/page-header.js"));
 
-var _importFailedDialog = _interopRequireDefault(__webpack_require__(/*! ../../../shared/import-failed-dialog/import-failed-dialog */ "../core/app/modules/import-export/assets/js/shared/import-failed-dialog/import-failed-dialog.js"));
+var _processFailedDialog = _interopRequireDefault(__webpack_require__(/*! ../../../shared/process-failed-dialog/process-failed-dialog */ "../core/app/modules/import-export/assets/js/shared/process-failed-dialog/process-failed-dialog.js"));
 
 var _inlineLink = _interopRequireDefault(__webpack_require__(/*! elementor-app/ui/molecules/inline-link */ "../core/app/assets/js/ui/molecules/inline-link.js"));
 
@@ -8089,34 +8480,37 @@ var _dropZone = _interopRequireDefault(__webpack_require__(/*! elementor-app/org
 
 var _button = _interopRequireDefault(__webpack_require__(/*! elementor-app/ui/molecules/button */ "../core/app/assets/js/ui/molecules/button.js"));
 
-var _useAjax2 = _interopRequireDefault(__webpack_require__(/*! elementor-app/hooks/use-ajax */ "../core/app/assets/js/hooks/use-ajax.js"));
+var _useQueryParams = _interopRequireDefault(__webpack_require__(/*! elementor-app/hooks/use-query-params */ "../core/app/assets/js/hooks/use-query-params.js"));
+
+var _useKit2 = _interopRequireDefault(__webpack_require__(/*! ../../../hooks/use-kit */ "../core/app/modules/import-export/assets/js/hooks/use-kit.js"));
 
 __webpack_require__(/*! ./import-kit.scss */ "../core/app/modules/import-export/assets/js/pages/import/import-kit/import-kit.scss");
 
 function ImportKit() {
-  var _useAjax = (0, _useAjax2.default)(),
-      ajaxState = _useAjax.ajaxState,
-      setAjax = _useAjax.setAjax,
-      ajaxActions = _useAjax.ajaxActions,
-      _useState = (0, _react.useState)(false),
+  var _useKit = (0, _useKit2.default)(),
+      kitState = _useKit.kitState,
+      kitActions = _useKit.kitActions,
+      KIT_STATUS_MAP = _useKit.KIT_STATUS_MAP,
+      _useState = (0, _react.useState)(''),
       _useState2 = (0, _slicedToArray2.default)(_useState, 2),
-      isImportFailed = _useState2[0],
-      setIsImportFailed = _useState2[1],
+      errorType = _useState2[0],
+      setErrorType = _useState2[1],
       _useState3 = (0, _react.useState)(false),
       _useState4 = (0, _slicedToArray2.default)(_useState3, 2),
       isLoading = _useState4[0],
       setIsLoading = _useState4[1],
       context = (0, _react.useContext)(_contextProvider.Context),
       navigate = (0, _router.useNavigate)(),
-      referrer = location.hash.match('referrer=([^&]+)'),
+      _useQueryParams$getAl = (0, _useQueryParams.default)().getAll(),
+      referrer = _useQueryParams$getAl.referrer,
       resetImportProcess = function resetImportProcess() {
     context.dispatch({
       type: 'SET_FILE',
       payload: null
     });
-    setIsImportFailed(false);
+    setErrorType(null);
     setIsLoading(false);
-    ajaxActions.reset();
+    kitActions.reset();
   },
       getLearnMoreLink = function getLearnMoreLink() {
     return /*#__PURE__*/_react.default.createElement(_inlineLink.default, {
@@ -8124,49 +8518,45 @@ function ImportKit() {
       key: "learn-more-link",
       italic: true
     }, __('Learn More', 'elementor'));
-  };
+  }; // On load.
 
-  (0, _react.useEffect)(function () {
-    if (context.data.file) {
-      setAjax({
-        data: {
-          e_import_file: context.data.file,
-          action: 'elementor_import_kit',
-          data: (0, _stringify.default)({
-            stage: 1
-          })
-        }
-      });
-    }
-  }, [context.data.file]);
-  (0, _react.useEffect)(function () {
-    if ('success' === ajaxState.status) {
-      context.dispatch({
-        type: 'SET_FILE_RESPONSE',
-        payload: {
-          stage1: ajaxState.response
-        }
-      });
-    } else if ('error' === ajaxState.status) {
-      setIsImportFailed(true);
-    }
-  }, [ajaxState.status]);
-  (0, _react.useEffect)(function () {
-    if (context.data.fileResponse && context.data.file) {
-      navigate('/import/content');
-    }
-  }, [context.data.fileResponse]);
+
   (0, _react.useEffect)(function () {
     context.dispatch({
       type: 'SET_INCLUDES',
       payload: []
     });
-  }, []);
+  }, []); // Uploading the kit after file is selected.
+
+  (0, _react.useEffect)(function () {
+    if (context.data.file) {
+      kitActions.upload({
+        file: context.data.file
+      });
+    }
+  }, [context.data.file]); // Listening to kit upload state.
+
+  (0, _react.useEffect)(function () {
+    if (KIT_STATUS_MAP.UPLOADED === kitState.status) {
+      context.dispatch({
+        type: 'SET_UPLOADED_DATA',
+        payload: kitState.data
+      });
+    } else if ('error' === kitState.status) {
+      setErrorType(kitState.data);
+    }
+  }, [kitState.status]); // After kit was uploaded.
+
+  (0, _react.useEffect)(function () {
+    if (context.data.uploadedData && context.data.file) {
+      navigate('/import/content');
+    }
+  }, [context.data.uploadedData]);
   return /*#__PURE__*/_react.default.createElement(_layout.default, {
     type: "import"
   }, /*#__PURE__*/_react.default.createElement("section", {
     className: "e-app-import"
-  }, 'kit-library' === (referrer === null || referrer === void 0 ? void 0 : referrer[1]) && /*#__PURE__*/_react.default.createElement(_button.default, {
+  }, 'kit-library' === referrer && /*#__PURE__*/_react.default.createElement(_button.default, {
     className: "e-app-import__back-to-library",
     icon: "eicon-chevron-left",
     text: __('Back to Kit Library', 'elementor'),
@@ -8194,14 +8584,12 @@ function ImportKit() {
       });
     },
     onError: function onError() {
-      return setIsImportFailed(true);
+      return setErrorType('general');
     },
     isLoading: isLoading
-  }), isImportFailed && /*#__PURE__*/_react.default.createElement(_importFailedDialog.default, {
-    onApprove: function onApprove() {
-      return window.open('https://elementor.com/help/import-kit?utm_source=import-export&utm_medium=wp-dash&utm_campaign=learn', '_blank');
-    },
-    onDismiss: resetImportProcess
+  }), errorType && /*#__PURE__*/_react.default.createElement(_processFailedDialog.default, {
+    errorType: errorType,
+    onApprove: resetImportProcess
   })));
 }
 
@@ -8226,19 +8614,15 @@ _Object$defineProperty(exports, "__esModule", {
   value: true
 });
 
-exports.default = ImportProcess;
+exports["default"] = ImportProcess;
 
 var _react = _interopRequireWildcard(__webpack_require__(/*! react */ "react"));
-
-var _objectSpread2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime-corejs2/helpers/objectSpread2 */ "../node_modules/@babel/runtime-corejs2/helpers/objectSpread2.js"));
-
-var _stringify = _interopRequireDefault(__webpack_require__(/*! @babel/runtime-corejs2/core-js/json/stringify */ "../node_modules/@babel/runtime-corejs2/core-js/json/stringify.js"));
-
-__webpack_require__(/*! core-js/modules/es6.regexp.match.js */ "../node_modules/core-js/modules/es6.regexp.match.js");
 
 __webpack_require__(/*! core-js/modules/es6.string.includes.js */ "../node_modules/core-js/modules/es6.string.includes.js");
 
 __webpack_require__(/*! core-js/modules/es7.array.includes.js */ "../node_modules/core-js/modules/es7.array.includes.js");
+
+var _slicedToArray2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime-corejs2/helpers/slicedToArray */ "../node_modules/@babel/runtime-corejs2/helpers/slicedToArray.js"));
 
 var _router = __webpack_require__(/*! @reach/router */ "../node_modules/@reach/router/es/index.js");
 
@@ -8246,108 +8630,165 @@ var _layout = _interopRequireDefault(__webpack_require__(/*! ../../../templates/
 
 var _fileProcess = _interopRequireDefault(__webpack_require__(/*! ../../../shared/file-process/file-process */ "../core/app/modules/import-export/assets/js/shared/file-process/file-process.js"));
 
+var _unfilteredFilesDialog = _interopRequireDefault(__webpack_require__(/*! elementor-app/organisms/unfiltered-files-dialog */ "../core/app/assets/js/organisms/unfiltered-files-dialog.js"));
+
 var _contextProvider = __webpack_require__(/*! ../../../context/context-provider */ "../core/app/modules/import-export/assets/js/context/context-provider.js");
 
-var _useAjax2 = _interopRequireDefault(__webpack_require__(/*! elementor-app/hooks/use-ajax */ "../core/app/assets/js/hooks/use-ajax.js"));
+var _useQueryParams = _interopRequireDefault(__webpack_require__(/*! elementor-app/hooks/use-query-params */ "../core/app/assets/js/hooks/use-query-params.js"));
+
+var _useKit2 = _interopRequireDefault(__webpack_require__(/*! ../../../hooks/use-kit */ "../core/app/modules/import-export/assets/js/hooks/use-kit.js"));
 
 function ImportProcess() {
-  var _useAjax = (0, _useAjax2.default)(),
-      ajaxState = _useAjax.ajaxState,
-      setAjax = _useAjax.setAjax,
+  var _useKit = (0, _useKit2.default)(),
+      kitState = _useKit.kitState,
+      kitActions = _useKit.kitActions,
+      KIT_STATUS_MAP = _useKit.KIT_STATUS_MAP,
+      _useState = (0, _react.useState)(''),
+      _useState2 = (0, _slicedToArray2.default)(_useState, 2),
+      errorType = _useState2[0],
+      setErrorType = _useState2[1],
       context = (0, _react.useContext)(_contextProvider.Context),
       navigate = (0, _router.useNavigate)(),
-      fileURL = location.hash.match('file_url=([^&]+)'),
-      onLoad = function onLoad() {
-    var ajaxConfig = {
-      data: {
-        action: 'elementor_import_kit'
-      }
-    };
-
-    if (fileURL || context.data.fileResponse) {
-      if (fileURL) {
-        fileURL[1] = decodeURIComponent(fileURL[1]);
-        context.dispatch({
-          type: 'SET_FILE',
-          payload: fileURL
-        });
-        ajaxConfig.data.e_import_file = fileURL[1];
-        ajaxConfig.data.data = (0, _stringify.default)({
-          stage: 1
-        });
-        var referrer = location.hash.match('referrer=([^&]+)');
-
-        if (referrer) {
-          context.dispatch({
-            type: 'SET_REFERRER',
-            payload: referrer[1]
-          });
-        }
-      } else {
-        ajaxConfig.data.data = {
-          stage: 2,
-          session: context.data.fileResponse.stage1.session,
-          include: context.data.includes,
-          overrideConditions: context.data.overrideConditions
-        };
-
-        if (context.data.referrer) {
-          ajaxConfig.data.data.referrer = context.data.referrer;
-        }
-
-        ajaxConfig.data.data = (0, _stringify.default)(ajaxConfig.data.data);
-      }
-
-      setAjax(ajaxConfig);
-    }
+      _useQueryParams$getAl = (0, _useQueryParams.default)().getAll(),
+      referrer = _useQueryParams$getAl.referrer,
+      fileURL = _useQueryParams$getAl.file_url,
+      actionType = _useQueryParams$getAl.action_type,
+      isApplyAllForced = 'apply-all' === actionType,
+      isUnfilteredFilesEnabled = elementorAppConfig['import-export'].isUnfilteredFilesEnabled,
+      _useState3 = (0, _react.useState)(false),
+      _useState4 = (0, _slicedToArray2.default)(_useState3, 2),
+      showUnfilteredFilesDialog = _useState4[0],
+      setShowUnfilteredFilesDialog = _useState4[1],
+      _useState5 = (0, _react.useState)(false),
+      _useState6 = (0, _slicedToArray2.default)(_useState5, 2),
+      startImport = _useState6[0],
+      setStartImport = _useState6[1],
+      isKitHasSvgAssets = function isKitHasSvgAssets() {
+    return context.data.includes.some(function (item) {
+      return ['templates', 'content'].includes(item);
+    });
   },
-      onSuccess = function onSuccess() {
-    var _context$data$fileRes;
+      uploadKit = function uploadKit() {
+    var decodedFileURL = decodeURIComponent(fileURL);
 
-    if ((_context$data$fileRes = context.data.fileResponse) !== null && _context$data$fileRes !== void 0 && _context$data$fileRes.stage1) {
-      var previousFileResponse = context.data.fileResponse,
-          fileResponse = (0, _objectSpread2.default)((0, _objectSpread2.default)({}, previousFileResponse), {}, {
-        stage2: ajaxState.response
-      });
+    if (referrer) {
       context.dispatch({
-        type: 'SET_FILE_RESPONSE',
-        payload: fileResponse
+        type: 'SET_REFERRER',
+        payload: referrer
       });
+    }
+
+    context.dispatch({
+      type: 'SET_FILE',
+      payload: decodedFileURL
+    });
+    kitActions.upload({
+      file: decodedFileURL
+    });
+  },
+      importKit = function importKit() {
+    if (isUnfilteredFilesEnabled || !isKitHasSvgAssets()) {
+      setStartImport(true);
     } else {
-      context.dispatch({
-        type: 'SET_FILE_RESPONSE',
-        payload: {
-          stage1: ajaxState.response
-        }
-      });
+      setShowUnfilteredFilesDialog(true);
     }
   },
-      onDialogDismiss = function onDialogDismiss() {
+      onCancelProcess = function onCancelProcess() {
     context.dispatch({
       type: 'SET_FILE',
       payload: null
     });
-    navigate('/import');
-  };
+
+    if ('kit-library' === referrer) {
+      navigate('/kit-library');
+    } else {
+      navigate('/import');
+    }
+  }; // on load.
+
 
   (0, _react.useEffect)(function () {
-    if ('success' === ajaxState.status) {
-      if (context.data.fileResponse.hasOwnProperty('stage2')) {
+    if (fileURL && !context.data.file) {
+      // When the starting point of the app is the import/process screen and importing via file_url.
+      uploadKit();
+    } else if (context.data.uploadedData) {
+      // When the import/process is the second step of the kit import process, after selecting the kit content.
+      importKit();
+    }
+  }, []); // Starting the import process.
+
+  (0, _react.useEffect)(function () {
+    if (startImport) {
+      kitActions.import({
+        session: context.data.uploadedData.session,
+        include: context.data.includes,
+        overrideConditions: context.data.overrideConditions,
+        referrer: context.data.referrer
+      });
+    }
+  }, [startImport]); // Updating the kit data after upload/import.
+
+  (0, _react.useEffect)(function () {
+    if (KIT_STATUS_MAP.INITIAL !== kitState.status) {
+      switch (kitState.status) {
+        case KIT_STATUS_MAP.IMPORTED:
+          context.dispatch({
+            type: 'SET_IMPORTED_DATA',
+            payload: kitState.data
+          });
+          break;
+
+        case KIT_STATUS_MAP.UPLOADED:
+          context.dispatch({
+            type: 'SET_UPLOADED_DATA',
+            payload: kitState.data
+          });
+          break;
+
+        case KIT_STATUS_MAP.ERROR:
+          setErrorType(kitState.data);
+          break;
+      }
+    }
+  }, [kitState.status]); // Actions after the kit upload/import data was updated.
+
+  (0, _react.useEffect)(function () {
+    if (KIT_STATUS_MAP.INITIAL !== kitState.status) {
+      if (context.data.importedData) {
+        // After kit upload.
         navigate('/import/complete');
+      } else if (isApplyAllForced) {
+        // Forcing apply-all kit content.
+        if (context.data.uploadedData.conflicts) {
+          navigate('/import/resolver');
+        } else {
+          // The kitState must be reset due to staying in the same page, so that the useEffect will be re-triggered.
+          kitActions.reset();
+          importKit();
+        }
       } else {
         navigate('/import/content');
       }
     }
-  }, [context.data.fileResponse]);
+  }, [context.data.uploadedData, context.data.importedData]);
   return /*#__PURE__*/_react.default.createElement(_layout.default, {
     type: "import"
-  }, /*#__PURE__*/_react.default.createElement(_fileProcess.default, {
-    status: ajaxState.status,
-    onLoad: onLoad,
-    onSuccess: onSuccess,
-    onDialogApprove: function onDialogApprove() {},
-    onDialogDismiss: onDialogDismiss
-  }));
+  }, /*#__PURE__*/_react.default.createElement("section", null, /*#__PURE__*/_react.default.createElement(_fileProcess.default, {
+    errorType: errorType,
+    onDialogApprove: onCancelProcess,
+    onDialogDismiss: onCancelProcess
+  }), /*#__PURE__*/_react.default.createElement(_unfilteredFilesDialog.default, {
+    show: showUnfilteredFilesDialog,
+    setShow: setShowUnfilteredFilesDialog,
+    onReady: function onReady() {
+      setShowUnfilteredFilesDialog(false);
+      setStartImport(true);
+    },
+    onCancel: function onCancel() {
+      setShowUnfilteredFilesDialog(false);
+      onCancelProcess();
+    }
+  })));
 }
 
 /***/ }),
@@ -8372,7 +8813,7 @@ _Object$defineProperty(exports, "__esModule", {
   value: true
 });
 
-exports.default = ConflictCheckbox;
+exports["default"] = ConflictCheckbox;
 
 var _react = _interopRequireWildcard(__webpack_require__(/*! react */ "react"));
 
@@ -8444,7 +8885,7 @@ _Object$defineProperty(exports, "__esModule", {
   value: true
 });
 
-exports.default = Conflict;
+exports["default"] = Conflict;
 
 var _react = _interopRequireWildcard(__webpack_require__(/*! react */ "react"));
 
@@ -8465,10 +8906,10 @@ var _grid = _interopRequireDefault(__webpack_require__(/*! elementor-app/ui/grid
 var _button = _interopRequireDefault(__webpack_require__(/*! elementor-app/ui/molecules/button */ "../core/app/assets/js/ui/molecules/button.js"));
 
 function Conflict(props) {
-  var _context$data$fileRes, _context$data$fileRes2;
+  var _context$data$uploade;
 
   var context = (0, _react.useContext)(_contextProvider.Context),
-      manifest = (_context$data$fileRes = context.data.fileResponse) === null || _context$data$fileRes === void 0 ? void 0 : (_context$data$fileRes2 = _context$data$fileRes.stage1) === null || _context$data$fileRes2 === void 0 ? void 0 : _context$data$fileRes2.manifest,
+      manifest = (_context$data$uploade = context.data.uploadedData) === null || _context$data$uploade === void 0 ? void 0 : _context$data$uploade.manifest,
       getConflictTitle = function getConflictTitle(id) {
     var _elementorAppConfig$i;
 
@@ -8559,7 +9000,7 @@ _Object$defineProperty(exports, "__esModule", {
   value: true
 });
 
-exports.default = ImportResolver;
+exports["default"] = ImportResolver;
 
 var _slicedToArray2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime-corejs2/helpers/slicedToArray */ "../node_modules/@babel/runtime-corejs2/helpers/slicedToArray.js"));
 
@@ -8604,11 +9045,11 @@ var _wizardFooter = _interopRequireDefault(__webpack_require__(/*! elementor-app
 __webpack_require__(/*! ./import-resolver.scss */ "../core/app/modules/import-export/assets/js/pages/import/import-resolver/import-resolver.scss");
 
 function ImportResolver() {
-  var _context$data, _context$data$fileRes;
+  var _context$data, _context$data$uploade;
 
   var context = (0, _react.useContext)(_contextProvider.Context),
       navigate = (0, _router.useNavigate)(),
-      conflicts = ((_context$data = context.data) === null || _context$data === void 0 ? void 0 : (_context$data$fileRes = _context$data.fileResponse) === null || _context$data$fileRes === void 0 ? void 0 : _context$data$fileRes.stage1.conflicts) || {},
+      conflicts = ((_context$data = context.data) === null || _context$data === void 0 ? void 0 : (_context$data$uploade = _context$data.uploadedData) === null || _context$data$uploade === void 0 ? void 0 : _context$data$uploade.conflicts) || {},
       getFooter = function getFooter() {
     return /*#__PURE__*/_react.default.createElement(_wizardFooter.default, {
       separator: true,
@@ -8636,9 +9077,9 @@ function ImportResolver() {
   },
       isHomePageOverride = function isHomePageOverride() {
     if (context.data.includes.includes('content')) {
-      var _context$data2, _context$data2$fileRe, _context$data2$fileRe2;
+      var _context$data2, _context$data2$upload, _context$data2$upload2;
 
-      var pages = ((_context$data2 = context.data) === null || _context$data2 === void 0 ? void 0 : (_context$data2$fileRe = _context$data2.fileResponse) === null || _context$data2$fileRe === void 0 ? void 0 : (_context$data2$fileRe2 = _context$data2$fileRe.stage1.manifest.content) === null || _context$data2$fileRe2 === void 0 ? void 0 : _context$data2$fileRe2.page) || {};
+      var pages = ((_context$data2 = context.data) === null || _context$data2 === void 0 ? void 0 : (_context$data2$upload = _context$data2.uploadedData) === null || _context$data2$upload === void 0 ? void 0 : (_context$data2$upload2 = _context$data2$upload.manifest.content) === null || _context$data2$upload2 === void 0 ? void 0 : _context$data2$upload2.page) || {};
       return (0, _entries.default)(pages).find(function (pageData) {
         return pageData[1].show_on_front;
       });
@@ -8708,7 +9149,7 @@ _Object$defineProperty(exports, "__esModule", {
   value: true
 });
 
-exports.default = ContentLayout;
+exports["default"] = ContentLayout;
 
 var _react = _interopRequireDefault(__webpack_require__(/*! react */ "react"));
 
@@ -8743,97 +9184,41 @@ var _Object$defineProperty = __webpack_require__(/*! @babel/runtime-corejs2/core
 
 var _interopRequireDefault = __webpack_require__(/*! @babel/runtime-corejs2/helpers/interopRequireDefault */ "../node_modules/@babel/runtime-corejs2/helpers/interopRequireDefault.js");
 
-var _interopRequireWildcard = __webpack_require__(/*! @babel/runtime-corejs2/helpers/interopRequireWildcard */ "../node_modules/@babel/runtime-corejs2/helpers/interopRequireWildcard.js");
-
 _Object$defineProperty(exports, "__esModule", {
   value: true
 });
 
-exports.default = FileProcess;
+exports["default"] = FileProcess;
 
-var _react = _interopRequireWildcard(__webpack_require__(/*! react */ "react"));
+var _react = _interopRequireDefault(__webpack_require__(/*! react */ "react"));
 
 var _utils = __webpack_require__(/*! elementor-app/utils/utils.js */ "../core/app/assets/js/utils/utils.js");
 
-var _importFailedDialog = _interopRequireDefault(__webpack_require__(/*! ../import-failed-dialog/import-failed-dialog */ "../core/app/modules/import-export/assets/js/shared/import-failed-dialog/import-failed-dialog.js"));
+var _processFailedDialog = _interopRequireDefault(__webpack_require__(/*! ../process-failed-dialog/process-failed-dialog */ "../core/app/modules/import-export/assets/js/shared/process-failed-dialog/process-failed-dialog.js"));
 
 var _wizardStep = _interopRequireDefault(__webpack_require__(/*! ../../ui/wizard-step/wizard-step */ "../core/app/modules/import-export/assets/js/ui/wizard-step/wizard-step.js"));
 
 function FileProcess(props) {
-  (0, _react.useEffect)(function () {
-    props.onLoad();
-  }, []);
-  (0, _react.useEffect)(function () {
-    if ('success' === props.status) {
-      props.onSuccess();
-    }
-  }, [props.status]);
   return /*#__PURE__*/_react.default.createElement(_wizardStep.default, {
     className: (0, _utils.arrayToClassName)(['e-app-import-export-file-process', props.className]),
     icon: "eicon-loading eicon-animation-spin",
     heading: __('Setting up your kit...', 'elementor'),
     description: /*#__PURE__*/_react.default.createElement(_react.default.Fragment, null, __('This usually takes a few moments.', 'elementor'), /*#__PURE__*/_react.default.createElement("br", null), __("Don't close this window until the process is finished.", 'elementor'))
-  }, 'error' === props.status && /*#__PURE__*/_react.default.createElement(_importFailedDialog.default, {
+  }, !!props.errorType && /*#__PURE__*/_react.default.createElement(_processFailedDialog.default, {
     onApprove: props.onDialogApprove,
-    onDismiss: props.onDialogDismiss
+    onDismiss: props.onDialogDismiss,
+    errorType: props.errorType
   }));
 }
 
 FileProcess.propTypes = {
   className: PropTypes.string,
-  status: PropTypes.oneOf(['initial', 'success', 'error']),
-  onLoad: PropTypes.func.isRequired,
-  onSuccess: PropTypes.func.isRequired,
-  onDialogApprove: PropTypes.func.isRequired,
-  onDialogDismiss: PropTypes.func.isRequired
+  onDialogApprove: PropTypes.func,
+  onDialogDismiss: PropTypes.func,
+  errorType: PropTypes.string
 };
 FileProcess.defaultProps = {
   className: ''
-};
-
-/***/ }),
-
-/***/ "../core/app/modules/import-export/assets/js/shared/import-failed-dialog/import-failed-dialog.js":
-/*!*******************************************************************************************************!*\
-  !*** ../core/app/modules/import-export/assets/js/shared/import-failed-dialog/import-failed-dialog.js ***!
-  \*******************************************************************************************************/
-/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
-
-"use strict";
-/* provided dependency */ var __ = __webpack_require__(/*! @wordpress/i18n */ "@wordpress/i18n")["__"];
-/* provided dependency */ var PropTypes = __webpack_require__(/*! prop-types */ "../node_modules/prop-types/index.js");
-
-
-var _Object$defineProperty = __webpack_require__(/*! @babel/runtime-corejs2/core-js/object/define-property */ "../node_modules/@babel/runtime-corejs2/core-js/object/define-property.js");
-
-var _interopRequireDefault = __webpack_require__(/*! @babel/runtime-corejs2/helpers/interopRequireDefault */ "../node_modules/@babel/runtime-corejs2/helpers/interopRequireDefault.js");
-
-_Object$defineProperty(exports, "__esModule", {
-  value: true
-});
-
-exports.default = ImportFailedDialog;
-
-var _react = _interopRequireDefault(__webpack_require__(/*! react */ "react"));
-
-var _dialog = _interopRequireDefault(__webpack_require__(/*! elementor-app/ui/dialog/dialog */ "../core/app/assets/js/ui/dialog/dialog.js"));
-
-function ImportFailedDialog(props) {
-  return /*#__PURE__*/_react.default.createElement(_dialog.default, {
-    title: __('Something went wrong', 'elementor'),
-    text: __('Nothing to worry about, just try again. If the problem continues, head over to the Help Center.', 'elementor'),
-    approveButtonColor: "link",
-    approveButtonText: __('Learn More', 'elementor'),
-    approveButtonOnClick: props.onApprove,
-    dismissButtonText: __('Dismiss', 'elementor'),
-    dismissButtonOnClick: props.onDismiss,
-    onClose: props.onDismiss
-  });
-}
-
-ImportFailedDialog.propTypes = {
-  onApprove: PropTypes.func.isRequired,
-  onDismiss: PropTypes.func.isRequired
 };
 
 /***/ }),
@@ -8856,7 +9241,7 @@ _Object$defineProperty(exports, "__esModule", {
   value: true
 });
 
-exports.default = ExportInfoModal;
+exports["default"] = ExportInfoModal;
 
 var _react = _interopRequireDefault(__webpack_require__(/*! react */ "react"));
 
@@ -8897,7 +9282,7 @@ _Object$defineProperty(exports, "__esModule", {
   value: true
 });
 
-exports.default = ImportInfoModal;
+exports["default"] = ImportInfoModal;
 
 var _react = _interopRequireDefault(__webpack_require__(/*! react */ "react"));
 
@@ -8935,7 +9320,7 @@ _Object$defineProperty(exports, "__esModule", {
   value: true
 });
 
-exports.default = InfoModalHeading;
+exports["default"] = InfoModalHeading;
 
 var _react = _interopRequireDefault(__webpack_require__(/*! react */ "react"));
 
@@ -8979,7 +9364,7 @@ _Object$defineProperty(exports, "__esModule", {
   value: true
 });
 
-exports.default = InfoModalSection;
+exports["default"] = InfoModalSection;
 
 var _react = _interopRequireDefault(__webpack_require__(/*! react */ "react"));
 
@@ -9021,7 +9406,7 @@ _Object$defineProperty(exports, "__esModule", {
   value: true
 });
 
-exports.default = InfoModalText;
+exports["default"] = InfoModalText;
 
 var _react = _interopRequireDefault(__webpack_require__(/*! react */ "react"));
 
@@ -9064,7 +9449,7 @@ _Object$defineProperty(exports, "__esModule", {
   value: true
 });
 
-exports.default = InfoModalTip;
+exports["default"] = InfoModalTip;
 
 var _react = _interopRequireDefault(__webpack_require__(/*! react */ "react"));
 
@@ -9108,7 +9493,7 @@ _Object$defineProperty(exports, "__esModule", {
   value: true
 });
 
-exports.default = InfoModal;
+exports["default"] = InfoModal;
 exports.infoButtonProps = void 0;
 
 var _react = _interopRequireDefault(__webpack_require__(/*! react */ "react"));
@@ -9167,6 +9552,55 @@ InfoModal.Tip = _infoModalTip.default;
 
 /***/ }),
 
+/***/ "../core/app/modules/import-export/assets/js/shared/kit-content-data/kit-content-data.js":
+/*!***********************************************************************************************!*\
+  !*** ../core/app/modules/import-export/assets/js/shared/kit-content-data/kit-content-data.js ***!
+  \***********************************************************************************************/
+/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
+
+"use strict";
+/* provided dependency */ var __ = __webpack_require__(/*! @wordpress/i18n */ "@wordpress/i18n")["__"];
+
+
+var _Object$defineProperty = __webpack_require__(/*! @babel/runtime-corejs2/core-js/object/define-property */ "../node_modules/@babel/runtime-corejs2/core-js/object/define-property.js");
+
+_Object$defineProperty(exports, "__esModule", {
+  value: true
+});
+
+exports["default"] = void 0;
+var kitContentData = [{
+  type: 'templates',
+  data: {
+    title: __('Templates', 'elementor'),
+    features: {
+      open: [__('Saved Templates', 'elementor')],
+      locked: [__('Headers', 'elementor'), __('Footers', 'elementor'), __('Archives', 'elementor'), __('Single Posts', 'elementor'), __('Single Pages', 'elementor'), __('Search Results', 'elementor'), __('404 Error Page', 'elementor'), __('Popups', 'elementor'), __('Global widgets', 'elementor')],
+      tooltip: __('To import or export these components, you’ll need Elementor Pro.', 'elementor')
+    }
+  }
+}, {
+  type: 'content',
+  data: {
+    title: __('Content', 'elementor'),
+    features: {
+      open: [__('Elementor Pages', 'elementor'), __('Landing Pages', 'elementor'), __('Elementor Posts', 'elementor'), __('WP Pages', 'elementor'), __('WP Posts', 'elementor'), __('Custom Post Type', 'elementor')]
+    }
+  }
+}, {
+  type: 'settings',
+  data: {
+    title: __('Site Settings', 'elementor'),
+    features: {
+      open: [__('Global Colors', 'elementor'), __('Global Fonts', 'elementor'), __('Theme Style settings', 'elementor'), __('Layout Settings', 'elementor'), __('Lightbox Settings', 'elementor'), __('Background Settings', 'elementor')]
+    }
+  }
+}];
+var _default = kitContentData;
+exports["default"] = _default;
+
+/***/ }),
+
 /***/ "../core/app/modules/import-export/assets/js/shared/kit-content/components/kit-content-checkbox/kit-content-checkbox.js":
 /*!******************************************************************************************************************************!*\
   !*** ../core/app/modules/import-export/assets/js/shared/kit-content/components/kit-content-checkbox/kit-content-checkbox.js ***!
@@ -9187,7 +9621,7 @@ _Object$defineProperty(exports, "__esModule", {
   value: true
 });
 
-exports.default = KitContentCheckbox;
+exports["default"] = KitContentCheckbox;
 
 var _react = _interopRequireWildcard(__webpack_require__(/*! react */ "react"));
 
@@ -9258,7 +9692,7 @@ _Object$defineProperty(exports, "__esModule", {
   value: true
 });
 
-exports.default = TemplatesFeatures;
+exports["default"] = TemplatesFeatures;
 
 var _react = _interopRequireDefault(__webpack_require__(/*! react */ "react"));
 
@@ -9304,55 +9738,6 @@ TemplatesFeatures.defaultProps = {
 
 /***/ }),
 
-/***/ "../core/app/modules/import-export/assets/js/shared/kit-content/kit-content-data/kit-content-data.js":
-/*!***********************************************************************************************************!*\
-  !*** ../core/app/modules/import-export/assets/js/shared/kit-content/kit-content-data/kit-content-data.js ***!
-  \***********************************************************************************************************/
-/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
-
-"use strict";
-/* provided dependency */ var __ = __webpack_require__(/*! @wordpress/i18n */ "@wordpress/i18n")["__"];
-
-
-var _Object$defineProperty = __webpack_require__(/*! @babel/runtime-corejs2/core-js/object/define-property */ "../node_modules/@babel/runtime-corejs2/core-js/object/define-property.js");
-
-_Object$defineProperty(exports, "__esModule", {
-  value: true
-});
-
-exports.default = void 0;
-var kitContentData = [{
-  type: 'templates',
-  data: {
-    title: __('Templates', 'elementor'),
-    features: {
-      open: [__('Saved Templates', 'elementor')],
-      locked: [__('Headers', 'elementor'), __('Footers', 'elementor'), __('Archives', 'elementor'), __('Single Posts', 'elementor'), __('Single Pages', 'elementor'), __('Search Results', 'elementor'), __('404 Error Page', 'elementor'), __('Popups', 'elementor'), __('Global widgets', 'elementor')],
-      tooltip: __('To import or export these components, you’ll need Elementor Pro.', 'elementor')
-    }
-  }
-}, {
-  type: 'content',
-  data: {
-    title: __('Content', 'elementor'),
-    features: {
-      open: [__('Elementor Pages', 'elementor'), __('Landing Pages', 'elementor'), __('Elementor Posts', 'elementor'), __('WP Pages', 'elementor'), __('WP Posts', 'elementor'), __('Custom Post Type', 'elementor')]
-    }
-  }
-}, {
-  type: 'settings',
-  data: {
-    title: __('Site Settings', 'elementor'),
-    features: {
-      open: [__('Global Colors', 'elementor'), __('Global Fonts', 'elementor'), __('Theme Style settings', 'elementor'), __('Layout Settings', 'elementor'), __('Lightbox Settings', 'elementor'), __('Background Settings', 'elementor')]
-    }
-  }
-}];
-var _default = kitContentData;
-exports.default = _default;
-
-/***/ }),
-
 /***/ "../core/app/modules/import-export/assets/js/shared/kit-content/kit-content.js":
 /*!*************************************************************************************!*\
   !*** ../core/app/modules/import-export/assets/js/shared/kit-content/kit-content.js ***!
@@ -9373,7 +9758,7 @@ _Object$defineProperty(exports, "__esModule", {
   value: true
 });
 
-exports.default = KitContent;
+exports["default"] = KitContent;
 
 var _react = _interopRequireWildcard(__webpack_require__(/*! react */ "react"));
 
@@ -9401,7 +9786,7 @@ var _text = _interopRequireDefault(__webpack_require__(/*! elementor-app/ui/atom
 
 var _grid = _interopRequireDefault(__webpack_require__(/*! elementor-app/ui/grid/grid */ "../core/app/assets/js/ui/grid/grid.js"));
 
-var _kitContentData = _interopRequireDefault(__webpack_require__(/*! ./kit-content-data/kit-content-data */ "../core/app/modules/import-export/assets/js/shared/kit-content/kit-content-data/kit-content-data.js"));
+var _kitContentData = _interopRequireDefault(__webpack_require__(/*! ../kit-content-data/kit-content-data */ "../core/app/modules/import-export/assets/js/shared/kit-content-data/kit-content-data.js"));
 
 __webpack_require__(/*! ./kit-content.scss */ "../core/app/modules/import-export/assets/js/shared/kit-content/kit-content.scss");
 
@@ -9512,7 +9897,7 @@ _Object$defineProperty(exports, "__esModule", {
   value: true
 });
 
-exports.default = KitData;
+exports["default"] = KitData;
 
 var _react = _interopRequireDefault(__webpack_require__(/*! react */ "react"));
 
@@ -9631,6 +10016,116 @@ KitData.propTypes = {
 
 /***/ }),
 
+/***/ "../core/app/modules/import-export/assets/js/shared/process-failed-dialog/process-failed-dialog.js":
+/*!*********************************************************************************************************!*\
+  !*** ../core/app/modules/import-export/assets/js/shared/process-failed-dialog/process-failed-dialog.js ***!
+  \*********************************************************************************************************/
+/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
+
+"use strict";
+/* provided dependency */ var __ = __webpack_require__(/*! @wordpress/i18n */ "@wordpress/i18n")["__"];
+/* provided dependency */ var PropTypes = __webpack_require__(/*! prop-types */ "../node_modules/prop-types/index.js");
+
+
+var _Object$defineProperty = __webpack_require__(/*! @babel/runtime-corejs2/core-js/object/define-property */ "../node_modules/@babel/runtime-corejs2/core-js/object/define-property.js");
+
+var _interopRequireDefault = __webpack_require__(/*! @babel/runtime-corejs2/helpers/interopRequireDefault */ "../node_modules/@babel/runtime-corejs2/helpers/interopRequireDefault.js");
+
+_Object$defineProperty(exports, "__esModule", {
+  value: true
+});
+
+exports["default"] = ProcessFailedDialog;
+
+var _react = _interopRequireDefault(__webpack_require__(/*! react */ "react"));
+
+var _router = __webpack_require__(/*! @reach/router */ "../node_modules/@reach/router/es/index.js");
+
+var _dialog = _interopRequireDefault(__webpack_require__(/*! elementor-app/ui/dialog/dialog */ "../core/app/assets/js/ui/dialog/dialog.js"));
+
+var _useQueryParams = _interopRequireDefault(__webpack_require__(/*! elementor-app/hooks/use-query-params */ "../core/app/assets/js/hooks/use-query-params.js"));
+
+var _useAction = _interopRequireDefault(__webpack_require__(/*! elementor-app/hooks/use-action */ "../core/app/assets/js/hooks/use-action.js"));
+
+var messagesContent = {
+  general: {
+    text: __('Nothing to worry about, just try again. If the problem continues, head over to the Help Center.', 'elementor')
+  },
+  'zip-archive-module-not-installed': {
+    text: __('Install a PHP zip on your server or contact your site host.', 'elementor')
+  },
+  'manifest-error': {
+    text: __('There is an error with the manifest file. Try importing again with a new kit file.', 'elementor')
+  },
+  'no-write-permissions': {
+    text: __('Elementor is not authorized to read or write from this file. Contact your site host.', 'elementor')
+  }
+},
+    dialogTitle = __('Something went wrong.', 'elementor'),
+    tryAgainText = __('Try Again', 'elementor');
+
+function ProcessFailedDialog(_ref) {
+  var errorType = _ref.errorType,
+      onApprove = _ref.onApprove,
+      onDismiss = _ref.onDismiss,
+      approveButton = _ref.approveButton,
+      dismissButton = _ref.dismissButton;
+
+  var action = (0, _useAction.default)(),
+      navigate = (0, _router.useNavigate)(),
+      _useQueryParams$getAl = (0, _useQueryParams.default)().getAll(),
+      referrer = _useQueryParams$getAl.referrer,
+      error = 'string' === typeof errorType && messagesContent[errorType] ? errorType : 'general',
+      text = messagesContent[error].text,
+      isTryAgainAction = 'general' === error && onApprove,
+      handleOnApprove = function handleOnApprove() {
+    /*
+    * When the errorType is general, there should be an option to trigger the onApprove function.
+    * All other error messages should open the learn-more link.
+    */
+    if (isTryAgainAction) {
+      onApprove();
+    } else {
+      window.open('https://elementor.com/help/how-to-fix-common-errors-with-import-export/', '_blank');
+    }
+  },
+      handleOnDismiss = function handleOnDismiss() {
+    if ('general' === error && onDismiss) {
+      onDismiss();
+    } else if ('kit-library' === referrer) {
+      navigate('/kit-library');
+    } else {
+      action.backToDashboard();
+    }
+  };
+
+  return /*#__PURE__*/_react.default.createElement(_dialog.default, {
+    title: dialogTitle,
+    text: text,
+    approveButtonColor: "link",
+    approveButtonText: isTryAgainAction ? tryAgainText : approveButton,
+    approveButtonOnClick: handleOnApprove,
+    dismissButtonText: dismissButton,
+    dismissButtonOnClick: handleOnDismiss,
+    onClose: handleOnDismiss
+  });
+}
+
+ProcessFailedDialog.propTypes = {
+  onApprove: PropTypes.func,
+  onDismiss: PropTypes.func,
+  errorType: PropTypes.string,
+  approveButton: PropTypes.string,
+  dismissButton: PropTypes.string
+};
+ProcessFailedDialog.defaultProps = {
+  errorType: 'general',
+  approveButton: __('Learn More', 'elementor'),
+  dismissButton: __('Close', 'elementor')
+};
+
+/***/ }),
+
 /***/ "../core/app/modules/import-export/assets/js/templates/layout.js":
 /*!***********************************************************************!*\
   !*** ../core/app/modules/import-export/assets/js/templates/layout.js ***!
@@ -9652,11 +10147,13 @@ _Object$defineProperty(exports, "__esModule", {
   value: true
 });
 
-exports.default = Layout;
+exports["default"] = Layout;
 
 var _react = _interopRequireWildcard(__webpack_require__(/*! react */ "react"));
 
-__webpack_require__(/*! core-js/modules/es6.regexp.match.js */ "../node_modules/core-js/modules/es6.regexp.match.js");
+__webpack_require__(/*! core-js/modules/es6.string.includes.js */ "../node_modules/core-js/modules/es6.string.includes.js");
+
+__webpack_require__(/*! core-js/modules/es7.array.includes.js */ "../node_modules/core-js/modules/es7.array.includes.js");
 
 var _toConsumableArray2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime-corejs2/helpers/toConsumableArray */ "../node_modules/@babel/runtime-corejs2/helpers/toConsumableArray.js"));
 
@@ -9674,12 +10171,15 @@ var _importInfoModal = _interopRequireDefault(__webpack_require__(/*! ../shared/
 
 var _exportInfoModal = _interopRequireDefault(__webpack_require__(/*! ../shared/info-modal/export-info-modal */ "../core/app/modules/import-export/assets/js/shared/info-modal/export-info-modal.js"));
 
+var _useQueryParams = _interopRequireDefault(__webpack_require__(/*! elementor-app/hooks/use-query-params */ "../core/app/assets/js/hooks/use-query-params.js"));
+
 function Layout(props) {
   var _useState = (0, _react.useState)(false),
       _useState2 = (0, _slicedToArray2.default)(_useState, 2),
       showInfoModal = _useState2[0],
       setShowInfoModal = _useState2[1],
-      referrer = location.hash.match('referrer=([^&]+)'),
+      _useQueryParams$getAl = (0, _useQueryParams.default)().getAll(),
+      referrer = _useQueryParams$getAl.referrer,
       getContent = function getContent() {
     var infoModalProps = {
       show: showInfoModal,
@@ -9703,7 +10203,7 @@ function Layout(props) {
       moduleAdminTab = '#tab-import-export-kit'; // Targeting the return_url value to the import-export dedicated admin tab (only when there is no specific referrer).
 
 
-  if (!referrer && -1 === elementorAppConfig.return_url.indexOf(moduleAdminTab)) {
+  if (!referrer && -1 === elementorAppConfig.return_url.indexOf(moduleAdminTab) && elementorAppConfig.return_url.includes('page=elementor-tools')) {
     elementorAppConfig.return_url += moduleAdminTab;
   }
 
@@ -9740,7 +10240,7 @@ _Object$defineProperty(exports, "__esModule", {
   value: true
 });
 
-exports.default = PageHeader;
+exports["default"] = PageHeader;
 
 var _react = _interopRequireDefault(__webpack_require__(/*! react */ "react"));
 
@@ -9823,7 +10323,7 @@ _Object$defineProperty(exports, "__esModule", {
   value: true
 });
 
-exports.default = PanelBody;
+exports["default"] = PanelBody;
 
 var _react = _interopRequireDefault(__webpack_require__(/*! react */ "react"));
 
@@ -9870,7 +10370,7 @@ _Object$defineProperty(exports, "__esModule", {
   value: true
 });
 
-exports.default = PanelHeader;
+exports["default"] = PanelHeader;
 
 var _react = _interopRequireDefault(__webpack_require__(/*! react */ "react"));
 
@@ -9924,7 +10424,7 @@ _Object$defineProperty(exports, "__esModule", {
   value: true
 });
 
-exports.default = PanelHeadline;
+exports["default"] = PanelHeadline;
 
 var _react = _interopRequireDefault(__webpack_require__(/*! react */ "react"));
 
@@ -9966,7 +10466,7 @@ _Object$defineProperty(exports, "__esModule", {
   value: true
 });
 
-exports.default = Panel;
+exports["default"] = Panel;
 
 var _react = _interopRequireDefault(__webpack_require__(/*! react */ "react"));
 
@@ -10025,7 +10525,7 @@ _Object$defineProperty(exports, "__esModule", {
   value: true
 });
 
-exports.default = WizardStep;
+exports["default"] = WizardStep;
 
 var _react = _interopRequireDefault(__webpack_require__(/*! react */ "react"));
 
@@ -10109,7 +10609,7 @@ _Object$defineProperty(exports, "__esModule", {
   value: true
 });
 
-exports.default = exports.TemplateTypesConsumer = exports.Context = void 0;
+exports["default"] = exports.TemplateTypesConsumer = exports.Context = void 0;
 
 var _react = _interopRequireDefault(__webpack_require__(/*! react */ "react"));
 
@@ -10216,7 +10716,7 @@ var TemplateTypesContext = /*#__PURE__*/function (_React$Component) {
 var TemplateTypesConsumer = Context.Consumer;
 exports.TemplateTypesConsumer = TemplateTypesConsumer;
 var _default = TemplateTypesContext;
-exports.default = _default;
+exports["default"] = _default;
 
 /***/ }),
 
@@ -10238,7 +10738,7 @@ _Object$defineProperty(exports, "__esModule", {
   value: true
 });
 
-exports.default = void 0;
+exports["default"] = void 0;
 
 var _classCallCheck2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime-corejs2/helpers/classCallCheck */ "../node_modules/@babel/runtime-corejs2/helpers/classCallCheck.js"));
 
@@ -10409,7 +10909,7 @@ var SiteEditor = /*#__PURE__*/function () {
   return SiteEditor;
 }();
 
-exports.default = SiteEditor;
+exports["default"] = SiteEditor;
 
 /***/ }),
 
@@ -10431,7 +10931,7 @@ _Object$defineProperty(exports, "__esModule", {
   value: true
 });
 
-exports.default = SitePart;
+exports["default"] = SitePart;
 
 var _react = _interopRequireDefault(__webpack_require__(/*! react */ "react"));
 
@@ -10489,7 +10989,7 @@ _Object$defineProperty(exports, "__esModule", {
   value: true
 });
 
-exports.default = AllPartsButton;
+exports["default"] = AllPartsButton;
 
 var _react = _interopRequireDefault(__webpack_require__(/*! react */ "react"));
 
@@ -10541,7 +11041,7 @@ _Object$defineProperty(exports, "__esModule", {
   value: true
 });
 
-exports.default = Menu;
+exports["default"] = Menu;
 
 var _react = _interopRequireDefault(__webpack_require__(/*! react */ "react"));
 
@@ -10620,7 +11120,7 @@ _Object$defineProperty(exports, "__esModule", {
   value: true
 });
 
-exports.default = SiteParts;
+exports["default"] = SiteParts;
 
 var _react = _interopRequireDefault(__webpack_require__(/*! react */ "react"));
 
@@ -10718,7 +11218,7 @@ _Object$defineProperty(exports, "__esModule", {
   value: true
 });
 
-exports.default = void 0;
+exports["default"] = void 0;
 
 var _allPartsButton = _interopRequireDefault(__webpack_require__(/*! ./organisms/all-parts-button */ "../core/app/modules/site-editor/assets/js/organisms/all-parts-button.js"));
 
@@ -10744,7 +11244,7 @@ var _default = {
   SiteParts: _siteParts.default,
   TemplateTypesContext: _templateTypes.Context
 };
-exports.default = _default;
+exports["default"] = _default;
 
 /***/ }),
 
@@ -10766,7 +11266,7 @@ _Object$defineProperty(exports, "__esModule", {
   value: true
 });
 
-exports.default = NotFound;
+exports["default"] = NotFound;
 
 var _react = _interopRequireDefault(__webpack_require__(/*! react */ "react"));
 
@@ -10814,7 +11314,7 @@ _Object$defineProperty(exports, "__esModule", {
   value: true
 });
 
-exports.default = Promotion;
+exports["default"] = Promotion;
 
 var _react = _interopRequireDefault(__webpack_require__(/*! react */ "react"));
 
@@ -10917,7 +11417,7 @@ _Object$defineProperty(exports, "__esModule", {
   value: true
 });
 
-exports.default = Layout;
+exports["default"] = Layout;
 
 var _react = _interopRequireDefault(__webpack_require__(/*! react */ "react"));
 
@@ -14371,6 +14871,20 @@ module.exports = function (it) {
 
 /***/ }),
 
+/***/ "../node_modules/core-js/modules/_enum-bug-keys.js":
+/*!*********************************************************!*\
+  !*** ../node_modules/core-js/modules/_enum-bug-keys.js ***!
+  \*********************************************************/
+/***/ ((module) => {
+
+// IE 8- don't enum bug keys
+module.exports = (
+  'constructor,hasOwnProperty,isPrototypeOf,propertyIsEnumerable,toLocaleString,toString,valueOf'
+).split(',');
+
+
+/***/ }),
+
 /***/ "../node_modules/core-js/modules/_export.js":
 /*!**************************************************!*\
   !*** ../node_modules/core-js/modules/_export.js ***!
@@ -14653,6 +15167,18 @@ module.exports = __webpack_require__(/*! ./_descriptors */ "../node_modules/core
 
 /***/ }),
 
+/***/ "../node_modules/core-js/modules/_html.js":
+/*!************************************************!*\
+  !*** ../node_modules/core-js/modules/_html.js ***!
+  \************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+var document = __webpack_require__(/*! ./_global */ "../node_modules/core-js/modules/_global.js").document;
+module.exports = document && document.documentElement;
+
+
+/***/ }),
+
 /***/ "../node_modules/core-js/modules/_ie8-dom-define.js":
 /*!**********************************************************!*\
   !*** ../node_modules/core-js/modules/_ie8-dom-define.js ***!
@@ -14728,6 +15254,134 @@ module.exports = function (it) {
 
 /***/ }),
 
+/***/ "../node_modules/core-js/modules/_iter-create.js":
+/*!*******************************************************!*\
+  !*** ../node_modules/core-js/modules/_iter-create.js ***!
+  \*******************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+
+var create = __webpack_require__(/*! ./_object-create */ "../node_modules/core-js/modules/_object-create.js");
+var descriptor = __webpack_require__(/*! ./_property-desc */ "../node_modules/core-js/modules/_property-desc.js");
+var setToStringTag = __webpack_require__(/*! ./_set-to-string-tag */ "../node_modules/core-js/modules/_set-to-string-tag.js");
+var IteratorPrototype = {};
+
+// 25.1.2.1.1 %IteratorPrototype%[@@iterator]()
+__webpack_require__(/*! ./_hide */ "../node_modules/core-js/modules/_hide.js")(IteratorPrototype, __webpack_require__(/*! ./_wks */ "../node_modules/core-js/modules/_wks.js")('iterator'), function () { return this; });
+
+module.exports = function (Constructor, NAME, next) {
+  Constructor.prototype = create(IteratorPrototype, { next: descriptor(1, next) });
+  setToStringTag(Constructor, NAME + ' Iterator');
+};
+
+
+/***/ }),
+
+/***/ "../node_modules/core-js/modules/_iter-define.js":
+/*!*******************************************************!*\
+  !*** ../node_modules/core-js/modules/_iter-define.js ***!
+  \*******************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+
+var LIBRARY = __webpack_require__(/*! ./_library */ "../node_modules/core-js/modules/_library.js");
+var $export = __webpack_require__(/*! ./_export */ "../node_modules/core-js/modules/_export.js");
+var redefine = __webpack_require__(/*! ./_redefine */ "../node_modules/core-js/modules/_redefine.js");
+var hide = __webpack_require__(/*! ./_hide */ "../node_modules/core-js/modules/_hide.js");
+var Iterators = __webpack_require__(/*! ./_iterators */ "../node_modules/core-js/modules/_iterators.js");
+var $iterCreate = __webpack_require__(/*! ./_iter-create */ "../node_modules/core-js/modules/_iter-create.js");
+var setToStringTag = __webpack_require__(/*! ./_set-to-string-tag */ "../node_modules/core-js/modules/_set-to-string-tag.js");
+var getPrototypeOf = __webpack_require__(/*! ./_object-gpo */ "../node_modules/core-js/modules/_object-gpo.js");
+var ITERATOR = __webpack_require__(/*! ./_wks */ "../node_modules/core-js/modules/_wks.js")('iterator');
+var BUGGY = !([].keys && 'next' in [].keys()); // Safari has buggy iterators w/o `next`
+var FF_ITERATOR = '@@iterator';
+var KEYS = 'keys';
+var VALUES = 'values';
+
+var returnThis = function () { return this; };
+
+module.exports = function (Base, NAME, Constructor, next, DEFAULT, IS_SET, FORCED) {
+  $iterCreate(Constructor, NAME, next);
+  var getMethod = function (kind) {
+    if (!BUGGY && kind in proto) return proto[kind];
+    switch (kind) {
+      case KEYS: return function keys() { return new Constructor(this, kind); };
+      case VALUES: return function values() { return new Constructor(this, kind); };
+    } return function entries() { return new Constructor(this, kind); };
+  };
+  var TAG = NAME + ' Iterator';
+  var DEF_VALUES = DEFAULT == VALUES;
+  var VALUES_BUG = false;
+  var proto = Base.prototype;
+  var $native = proto[ITERATOR] || proto[FF_ITERATOR] || DEFAULT && proto[DEFAULT];
+  var $default = $native || getMethod(DEFAULT);
+  var $entries = DEFAULT ? !DEF_VALUES ? $default : getMethod('entries') : undefined;
+  var $anyNative = NAME == 'Array' ? proto.entries || $native : $native;
+  var methods, key, IteratorPrototype;
+  // Fix native
+  if ($anyNative) {
+    IteratorPrototype = getPrototypeOf($anyNative.call(new Base()));
+    if (IteratorPrototype !== Object.prototype && IteratorPrototype.next) {
+      // Set @@toStringTag to native iterators
+      setToStringTag(IteratorPrototype, TAG, true);
+      // fix for some old engines
+      if (!LIBRARY && typeof IteratorPrototype[ITERATOR] != 'function') hide(IteratorPrototype, ITERATOR, returnThis);
+    }
+  }
+  // fix Array#{values, @@iterator}.name in V8 / FF
+  if (DEF_VALUES && $native && $native.name !== VALUES) {
+    VALUES_BUG = true;
+    $default = function values() { return $native.call(this); };
+  }
+  // Define iterator
+  if ((!LIBRARY || FORCED) && (BUGGY || VALUES_BUG || !proto[ITERATOR])) {
+    hide(proto, ITERATOR, $default);
+  }
+  // Plug for library
+  Iterators[NAME] = $default;
+  Iterators[TAG] = returnThis;
+  if (DEFAULT) {
+    methods = {
+      values: DEF_VALUES ? $default : getMethod(VALUES),
+      keys: IS_SET ? $default : getMethod(KEYS),
+      entries: $entries
+    };
+    if (FORCED) for (key in methods) {
+      if (!(key in proto)) redefine(proto, key, methods[key]);
+    } else $export($export.P + $export.F * (BUGGY || VALUES_BUG), NAME, methods);
+  }
+  return methods;
+};
+
+
+/***/ }),
+
+/***/ "../node_modules/core-js/modules/_iter-step.js":
+/*!*****************************************************!*\
+  !*** ../node_modules/core-js/modules/_iter-step.js ***!
+  \*****************************************************/
+/***/ ((module) => {
+
+module.exports = function (done, value) {
+  return { value: value, done: !!done };
+};
+
+
+/***/ }),
+
+/***/ "../node_modules/core-js/modules/_iterators.js":
+/*!*****************************************************!*\
+  !*** ../node_modules/core-js/modules/_iterators.js ***!
+  \*****************************************************/
+/***/ ((module) => {
+
+module.exports = {};
+
+
+/***/ }),
+
 /***/ "../node_modules/core-js/modules/_library.js":
 /*!***************************************************!*\
   !*** ../node_modules/core-js/modules/_library.js ***!
@@ -14735,6 +15389,57 @@ module.exports = function (it) {
 /***/ ((module) => {
 
 module.exports = false;
+
+
+/***/ }),
+
+/***/ "../node_modules/core-js/modules/_object-create.js":
+/*!*********************************************************!*\
+  !*** ../node_modules/core-js/modules/_object-create.js ***!
+  \*********************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+// 19.1.2.2 / 15.2.3.5 Object.create(O [, Properties])
+var anObject = __webpack_require__(/*! ./_an-object */ "../node_modules/core-js/modules/_an-object.js");
+var dPs = __webpack_require__(/*! ./_object-dps */ "../node_modules/core-js/modules/_object-dps.js");
+var enumBugKeys = __webpack_require__(/*! ./_enum-bug-keys */ "../node_modules/core-js/modules/_enum-bug-keys.js");
+var IE_PROTO = __webpack_require__(/*! ./_shared-key */ "../node_modules/core-js/modules/_shared-key.js")('IE_PROTO');
+var Empty = function () { /* empty */ };
+var PROTOTYPE = 'prototype';
+
+// Create object with fake `null` prototype: use iframe Object with cleared prototype
+var createDict = function () {
+  // Thrash, waste and sodomy: IE GC bug
+  var iframe = __webpack_require__(/*! ./_dom-create */ "../node_modules/core-js/modules/_dom-create.js")('iframe');
+  var i = enumBugKeys.length;
+  var lt = '<';
+  var gt = '>';
+  var iframeDocument;
+  iframe.style.display = 'none';
+  __webpack_require__(/*! ./_html */ "../node_modules/core-js/modules/_html.js").appendChild(iframe);
+  iframe.src = 'javascript:'; // eslint-disable-line no-script-url
+  // createDict = iframe.contentWindow.Object;
+  // html.removeChild(iframe);
+  iframeDocument = iframe.contentWindow.document;
+  iframeDocument.open();
+  iframeDocument.write(lt + 'script' + gt + 'document.F=Object' + lt + '/script' + gt);
+  iframeDocument.close();
+  createDict = iframeDocument.F;
+  while (i--) delete createDict[PROTOTYPE][enumBugKeys[i]];
+  return createDict();
+};
+
+module.exports = Object.create || function create(O, Properties) {
+  var result;
+  if (O !== null) {
+    Empty[PROTOTYPE] = anObject(O);
+    result = new Empty();
+    Empty[PROTOTYPE] = null;
+    // add "__proto__" for Object.getPrototypeOf polyfill
+    result[IE_PROTO] = O;
+  } else result = createDict();
+  return Properties === undefined ? result : dPs(result, Properties);
+};
 
 
 /***/ }),
@@ -14760,6 +15465,96 @@ exports.f = __webpack_require__(/*! ./_descriptors */ "../node_modules/core-js/m
   if ('get' in Attributes || 'set' in Attributes) throw TypeError('Accessors not supported!');
   if ('value' in Attributes) O[P] = Attributes.value;
   return O;
+};
+
+
+/***/ }),
+
+/***/ "../node_modules/core-js/modules/_object-dps.js":
+/*!******************************************************!*\
+  !*** ../node_modules/core-js/modules/_object-dps.js ***!
+  \******************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+var dP = __webpack_require__(/*! ./_object-dp */ "../node_modules/core-js/modules/_object-dp.js");
+var anObject = __webpack_require__(/*! ./_an-object */ "../node_modules/core-js/modules/_an-object.js");
+var getKeys = __webpack_require__(/*! ./_object-keys */ "../node_modules/core-js/modules/_object-keys.js");
+
+module.exports = __webpack_require__(/*! ./_descriptors */ "../node_modules/core-js/modules/_descriptors.js") ? Object.defineProperties : function defineProperties(O, Properties) {
+  anObject(O);
+  var keys = getKeys(Properties);
+  var length = keys.length;
+  var i = 0;
+  var P;
+  while (length > i) dP.f(O, P = keys[i++], Properties[P]);
+  return O;
+};
+
+
+/***/ }),
+
+/***/ "../node_modules/core-js/modules/_object-gpo.js":
+/*!******************************************************!*\
+  !*** ../node_modules/core-js/modules/_object-gpo.js ***!
+  \******************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+// 19.1.2.9 / 15.2.3.2 Object.getPrototypeOf(O)
+var has = __webpack_require__(/*! ./_has */ "../node_modules/core-js/modules/_has.js");
+var toObject = __webpack_require__(/*! ./_to-object */ "../node_modules/core-js/modules/_to-object.js");
+var IE_PROTO = __webpack_require__(/*! ./_shared-key */ "../node_modules/core-js/modules/_shared-key.js")('IE_PROTO');
+var ObjectProto = Object.prototype;
+
+module.exports = Object.getPrototypeOf || function (O) {
+  O = toObject(O);
+  if (has(O, IE_PROTO)) return O[IE_PROTO];
+  if (typeof O.constructor == 'function' && O instanceof O.constructor) {
+    return O.constructor.prototype;
+  } return O instanceof Object ? ObjectProto : null;
+};
+
+
+/***/ }),
+
+/***/ "../node_modules/core-js/modules/_object-keys-internal.js":
+/*!****************************************************************!*\
+  !*** ../node_modules/core-js/modules/_object-keys-internal.js ***!
+  \****************************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+var has = __webpack_require__(/*! ./_has */ "../node_modules/core-js/modules/_has.js");
+var toIObject = __webpack_require__(/*! ./_to-iobject */ "../node_modules/core-js/modules/_to-iobject.js");
+var arrayIndexOf = __webpack_require__(/*! ./_array-includes */ "../node_modules/core-js/modules/_array-includes.js")(false);
+var IE_PROTO = __webpack_require__(/*! ./_shared-key */ "../node_modules/core-js/modules/_shared-key.js")('IE_PROTO');
+
+module.exports = function (object, names) {
+  var O = toIObject(object);
+  var i = 0;
+  var result = [];
+  var key;
+  for (key in O) if (key != IE_PROTO) has(O, key) && result.push(key);
+  // Don't enum bug & hidden keys
+  while (names.length > i) if (has(O, key = names[i++])) {
+    ~arrayIndexOf(result, key) || result.push(key);
+  }
+  return result;
+};
+
+
+/***/ }),
+
+/***/ "../node_modules/core-js/modules/_object-keys.js":
+/*!*******************************************************!*\
+  !*** ../node_modules/core-js/modules/_object-keys.js ***!
+  \*******************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+// 19.1.2.14 / 15.2.3.14 Object.keys(O)
+var $keys = __webpack_require__(/*! ./_object-keys-internal */ "../node_modules/core-js/modules/_object-keys-internal.js");
+var enumBugKeys = __webpack_require__(/*! ./_enum-bug-keys */ "../node_modules/core-js/modules/_enum-bug-keys.js");
+
+module.exports = Object.keys || function keys(O) {
+  return $keys(O, enumBugKeys);
 };
 
 
@@ -14921,6 +15716,53 @@ if (PATCH) {
 }
 
 module.exports = patchedExec;
+
+
+/***/ }),
+
+/***/ "../node_modules/core-js/modules/_same-value.js":
+/*!******************************************************!*\
+  !*** ../node_modules/core-js/modules/_same-value.js ***!
+  \******************************************************/
+/***/ ((module) => {
+
+// 7.2.9 SameValue(x, y)
+module.exports = Object.is || function is(x, y) {
+  // eslint-disable-next-line no-self-compare
+  return x === y ? x !== 0 || 1 / x === 1 / y : x != x && y != y;
+};
+
+
+/***/ }),
+
+/***/ "../node_modules/core-js/modules/_set-to-string-tag.js":
+/*!*************************************************************!*\
+  !*** ../node_modules/core-js/modules/_set-to-string-tag.js ***!
+  \*************************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+var def = __webpack_require__(/*! ./_object-dp */ "../node_modules/core-js/modules/_object-dp.js").f;
+var has = __webpack_require__(/*! ./_has */ "../node_modules/core-js/modules/_has.js");
+var TAG = __webpack_require__(/*! ./_wks */ "../node_modules/core-js/modules/_wks.js")('toStringTag');
+
+module.exports = function (it, tag, stat) {
+  if (it && !has(it = stat ? it : it.prototype, TAG)) def(it, TAG, { configurable: true, value: tag });
+};
+
+
+/***/ }),
+
+/***/ "../node_modules/core-js/modules/_shared-key.js":
+/*!******************************************************!*\
+  !*** ../node_modules/core-js/modules/_shared-key.js ***!
+  \******************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+var shared = __webpack_require__(/*! ./_shared */ "../node_modules/core-js/modules/_shared.js")('keys');
+var uid = __webpack_require__(/*! ./_uid */ "../node_modules/core-js/modules/_uid.js");
+module.exports = function (key) {
+  return shared[key] || (shared[key] = uid(key));
+};
 
 
 /***/ }),
@@ -15215,6 +16057,51 @@ __webpack_require__(/*! ./_add-to-unscopables */ "../node_modules/core-js/module
 
 /***/ }),
 
+/***/ "../node_modules/core-js/modules/es6.array.iterator.js":
+/*!*************************************************************!*\
+  !*** ../node_modules/core-js/modules/es6.array.iterator.js ***!
+  \*************************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+
+var addToUnscopables = __webpack_require__(/*! ./_add-to-unscopables */ "../node_modules/core-js/modules/_add-to-unscopables.js");
+var step = __webpack_require__(/*! ./_iter-step */ "../node_modules/core-js/modules/_iter-step.js");
+var Iterators = __webpack_require__(/*! ./_iterators */ "../node_modules/core-js/modules/_iterators.js");
+var toIObject = __webpack_require__(/*! ./_to-iobject */ "../node_modules/core-js/modules/_to-iobject.js");
+
+// 22.1.3.4 Array.prototype.entries()
+// 22.1.3.13 Array.prototype.keys()
+// 22.1.3.29 Array.prototype.values()
+// 22.1.3.30 Array.prototype[@@iterator]()
+module.exports = __webpack_require__(/*! ./_iter-define */ "../node_modules/core-js/modules/_iter-define.js")(Array, 'Array', function (iterated, kind) {
+  this._t = toIObject(iterated); // target
+  this._i = 0;                   // next index
+  this._k = kind;                // kind
+// 22.1.5.2.1 %ArrayIteratorPrototype%.next()
+}, function () {
+  var O = this._t;
+  var kind = this._k;
+  var index = this._i++;
+  if (!O || index >= O.length) {
+    this._t = undefined;
+    return step(1);
+  }
+  if (kind == 'keys') return step(0, index);
+  if (kind == 'values') return step(0, O[index]);
+  return step(0, [index, O[index]]);
+}, 'values');
+
+// argumentsList[@@iterator] is %ArrayProto_values% (9.4.4.6, 9.4.4.7)
+Iterators.Arguments = Iterators.Array;
+
+addToUnscopables('keys');
+addToUnscopables('values');
+addToUnscopables('entries');
+
+
+/***/ }),
+
 /***/ "../node_modules/core-js/modules/es6.array.map.js":
 /*!********************************************************!*\
   !*** ../node_modules/core-js/modules/es6.array.map.js ***!
@@ -15472,6 +16359,48 @@ __webpack_require__(/*! ./_fix-re-wks */ "../node_modules/core-js/modules/_fix-r
 
 /***/ }),
 
+/***/ "../node_modules/core-js/modules/es6.regexp.search.js":
+/*!************************************************************!*\
+  !*** ../node_modules/core-js/modules/es6.regexp.search.js ***!
+  \************************************************************/
+/***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+
+
+var anObject = __webpack_require__(/*! ./_an-object */ "../node_modules/core-js/modules/_an-object.js");
+var sameValue = __webpack_require__(/*! ./_same-value */ "../node_modules/core-js/modules/_same-value.js");
+var regExpExec = __webpack_require__(/*! ./_regexp-exec-abstract */ "../node_modules/core-js/modules/_regexp-exec-abstract.js");
+
+// @@search logic
+__webpack_require__(/*! ./_fix-re-wks */ "../node_modules/core-js/modules/_fix-re-wks.js")('search', 1, function (defined, SEARCH, $search, maybeCallNative) {
+  return [
+    // `String.prototype.search` method
+    // https://tc39.github.io/ecma262/#sec-string.prototype.search
+    function search(regexp) {
+      var O = defined(this);
+      var fn = regexp == undefined ? undefined : regexp[SEARCH];
+      return fn !== undefined ? fn.call(regexp, O) : new RegExp(regexp)[SEARCH](String(O));
+    },
+    // `RegExp.prototype[@@search]` method
+    // https://tc39.github.io/ecma262/#sec-regexp.prototype-@@search
+    function (regexp) {
+      var res = maybeCallNative($search, regexp, this);
+      if (res.done) return res.value;
+      var rx = anObject(regexp);
+      var S = String(this);
+      var previousLastIndex = rx.lastIndex;
+      if (!sameValue(previousLastIndex, 0)) rx.lastIndex = 0;
+      var result = regExpExec(rx, S);
+      if (!sameValue(rx.lastIndex, previousLastIndex)) rx.lastIndex = previousLastIndex;
+      return result === null ? -1 : result.index;
+    }
+  ];
+});
+
+
+/***/ }),
+
 /***/ "../node_modules/core-js/modules/es6.regexp.split.js":
 /*!***********************************************************!*\
   !*** ../node_modules/core-js/modules/es6.regexp.split.js ***!
@@ -15699,6 +16628,74 @@ __webpack_require__(/*! ./_add-to-unscopables */ "../node_modules/core-js/module
 
 /***/ }),
 
+/***/ "../node_modules/core-js/modules/web.dom.iterable.js":
+/*!***********************************************************!*\
+  !*** ../node_modules/core-js/modules/web.dom.iterable.js ***!
+  \***********************************************************/
+/***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
+
+var $iterators = __webpack_require__(/*! ./es6.array.iterator */ "../node_modules/core-js/modules/es6.array.iterator.js");
+var getKeys = __webpack_require__(/*! ./_object-keys */ "../node_modules/core-js/modules/_object-keys.js");
+var redefine = __webpack_require__(/*! ./_redefine */ "../node_modules/core-js/modules/_redefine.js");
+var global = __webpack_require__(/*! ./_global */ "../node_modules/core-js/modules/_global.js");
+var hide = __webpack_require__(/*! ./_hide */ "../node_modules/core-js/modules/_hide.js");
+var Iterators = __webpack_require__(/*! ./_iterators */ "../node_modules/core-js/modules/_iterators.js");
+var wks = __webpack_require__(/*! ./_wks */ "../node_modules/core-js/modules/_wks.js");
+var ITERATOR = wks('iterator');
+var TO_STRING_TAG = wks('toStringTag');
+var ArrayValues = Iterators.Array;
+
+var DOMIterables = {
+  CSSRuleList: true, // TODO: Not spec compliant, should be false.
+  CSSStyleDeclaration: false,
+  CSSValueList: false,
+  ClientRectList: false,
+  DOMRectList: false,
+  DOMStringList: false,
+  DOMTokenList: true,
+  DataTransferItemList: false,
+  FileList: false,
+  HTMLAllCollection: false,
+  HTMLCollection: false,
+  HTMLFormElement: false,
+  HTMLSelectElement: false,
+  MediaList: true, // TODO: Not spec compliant, should be false.
+  MimeTypeArray: false,
+  NamedNodeMap: false,
+  NodeList: true,
+  PaintRequestList: false,
+  Plugin: false,
+  PluginArray: false,
+  SVGLengthList: false,
+  SVGNumberList: false,
+  SVGPathSegList: false,
+  SVGPointList: false,
+  SVGStringList: false,
+  SVGTransformList: false,
+  SourceBufferList: false,
+  StyleSheetList: true, // TODO: Not spec compliant, should be false.
+  TextTrackCueList: false,
+  TextTrackList: false,
+  TouchList: false
+};
+
+for (var collections = getKeys(DOMIterables), i = 0; i < collections.length; i++) {
+  var NAME = collections[i];
+  var explicit = DOMIterables[NAME];
+  var Collection = global[NAME];
+  var proto = Collection && Collection.prototype;
+  var key;
+  if (proto) {
+    if (!proto[ITERATOR]) hide(proto, ITERATOR, ArrayValues);
+    if (!proto[TO_STRING_TAG]) hide(proto, TO_STRING_TAG, NAME);
+    Iterators[NAME] = ArrayValues;
+    if (explicit) for (key in $iterators) if (!proto[key]) redefine(proto, key, $iterators[key], true);
+  }
+}
+
+
+/***/ }),
+
 /***/ "../node_modules/create-react-context/lib/implementation.js":
 /*!******************************************************************!*\
   !*** ../node_modules/create-react-context/lib/implementation.js ***!
@@ -15900,7 +16897,7 @@ function createReactContext(defaultValue, calculateChangedBits) {
   };
 }
 
-exports.default = createReactContext;
+exports["default"] = createReactContext;
 module.exports = exports['default'];
 
 /***/ }),
@@ -15926,7 +16923,7 @@ var _implementation2 = _interopRequireDefault(_implementation);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-exports.default = _react2.default.createContext || _implementation2.default;
+exports["default"] = _react2.default.createContext || _implementation2.default;
 module.exports = exports['default'];
 
 /***/ }),
@@ -17454,7 +18451,7 @@ var _interopRequireDefault = __webpack_require__(/*! @babel/runtime-corejs2/help
 
 var _router = _interopRequireDefault(__webpack_require__(/*! ./router */ "../core/app/assets/js/router.js"));
 
-var _package = _interopRequireDefault(__webpack_require__(/*! ./package */ "../core/app/assets/js/package.js"));
+var _package = __webpack_require__(/*! ./package */ "../core/app/assets/js/package.js");
 
 var _package2 = _interopRequireDefault(__webpack_require__(/*! ../../modules/site-editor/assets/js/package */ "../core/app/modules/site-editor/assets/js/package.js"));
 
@@ -17467,7 +18464,9 @@ var _package3 = _interopRequireDefault(__webpack_require__(/*! ../../modules/imp
 // Make router available for use within packages.
 // Alphabetical order.
 window.elementorAppPackages = {
-  appUi: _package.default,
+  appUi: _package.appUi,
+  components: _package.components,
+  hooks: _package.hooks,
   router: _router.default,
   siteEditor: _package2.default,
   importExport: _package3.default
