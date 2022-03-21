@@ -129,7 +129,10 @@ abstract class Element_Base extends Controls_Stack {
 	 */
 	final public function enqueue_scripts() {
 		$deprecated_scripts = [
-			//Insert here when you have a deprecated script
+			'jquery-slick' => [
+				'version' => '2.7.0',
+				'replacement' => 'Swiper',
+			],
 		];
 
 		foreach ( $this->get_script_depends() as $script ) {
@@ -680,7 +683,7 @@ abstract class Element_Base extends Controls_Stack {
 			$this->add_control(
 				'hide_' . $breakpoint_key,
 				[
-					/* translators: %s: Device name. */
+					/* translators: %s: Device Name. */
 					'label' => sprintf( __( 'Hide On %s', 'elementor' ), $label ),
 					'type' => Controls_Manager::SWITCHER,
 					'default' => '',

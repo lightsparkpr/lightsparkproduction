@@ -85,21 +85,14 @@ class Control_Hover_Animation extends Base_Data_Control {
 			];
 
 			$additional_animations = [];
-
 			/**
-			 * Hover animations.
-			 *
-			 * Filters the animations list displayed in the hover animations control.
-			 *
-			 * This hook can be used to register new animations in addition to the
-			 * basic Elementor hover animations.
+			 * Element hover animations list.
 			 *
 			 * @since 2.4.0
 			 *
-			 * @param array $additional_animations Additional animations array.
+			 * @param array $additional_animations Additional Animations array.
 			 */
 			$additional_animations = apply_filters( 'elementor/controls/hover_animations/additional_animations', $additional_animations );
-
 			self::$_animations = array_merge( self::$_animations, $additional_animations );
 		}
 

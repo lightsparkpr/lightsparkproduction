@@ -247,20 +247,6 @@ abstract class Base {
 	}
 
 	/**
-	 * Get Config.
-	 *
-	 * Getting the assets data config.
-	 *
-	 * @since 3.5.0
-	 * @access protected
-	 *
-	 * @return array
-	 */
-	protected function get_config( $data ) {
-		return [];
-	}
-
-	/**
 	 * Init Asset Data.
 	 *
 	 * Initialize the asset data and handles the asset content updates when needed.
@@ -290,9 +276,9 @@ abstract class Base {
 	}
 
 	/**
-	 * Get Asset Data From Config.
+	 * Get Asset Data.
 	 *
-	 * Getting the asset data content from config.
+	 * Getting the asset data content.
 	 *
 	 * @since 3.3.0
 	 * @access public
@@ -306,30 +292,12 @@ abstract class Base {
 	 *
 	 * @return mixed
 	 */
-	public function get_asset_data_from_config( array $config ) {
+	public function get_asset_data( $config ) {
 		$this->init_asset_data( $config );
 
 		$asset_key = $config['key'];
 
 		return $this->assets_data[ $asset_key ]['content'];
-	}
-
-	/**
-	 * Get Asset Data.
-	 *
-	 * Getting the asset data content.
-	 *
-	 * @since 3.5.0
-	 * @access public
-	 *
-	 * @param array $data
-	 *
-	 * @return mixed
-	 */
-	public function get_asset_data( array $data ) {
-		$config = $this->get_config( $data );
-
-		return $this->get_asset_data_from_config( $config );
 	}
 
 	public function __construct() {

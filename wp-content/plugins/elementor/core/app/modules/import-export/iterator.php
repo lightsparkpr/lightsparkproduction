@@ -2,16 +2,12 @@
 namespace Elementor\Core\App\Modules\ImportExport;
 
 use Elementor\Core\Base\Base_Object;
-use Elementor\Modules\System_Info\Reporters\Server;
 
 if ( ! defined( 'ABSPATH' ) ) {
 	exit; // Exit if accessed directly
 }
 
 abstract class Iterator extends Base_Object {
-	const ZIP_ARCHIVE_MODULE_NOT_INSTALLED_KEY = 'zip-archive-module-not-installed';
-
-	const NO_WRITE_PERMISSIONS_KEY = 'no-write-permissions';
 
 	protected $temp_dir;
 
@@ -41,15 +37,7 @@ abstract class Iterator extends Base_Object {
 
 	public function __construct( array $settings ) {
 		if ( ! class_exists( '\ZipArchive' ) ) {
-			throw new \Error( self::ZIP_ARCHIVE_MODULE_NOT_INSTALLED_KEY );
-		}
-
-		$server = new Server();
-
-		$server_write_permissions = $server->get_write_permissions();
-
-		if ( $server_write_permissions['warning'] ) {
-			throw new \Error( self::NO_WRITE_PERMISSIONS_KEY );
+			throw new \Error( 'ZipArchive module is not installed on the server. You must install this module to perform the process.' );
 		}
 
 		$this->set_settings( $settings );

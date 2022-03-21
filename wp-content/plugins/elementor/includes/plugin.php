@@ -24,7 +24,6 @@ use Elementor\Core\Logger\Manager as Log_Manager;
 use Elementor\Core\Page_Assets\Loader as Assets_Loader;
 use Elementor\Modules\System_Info\Module as System_Info_Module;
 use Elementor\Data\Manager as Data_Manager;
-use Elementor\Data\V2\Manager as Data_Manager_V2;
 use Elementor\Core\Common\Modules\DevTools\Module as Dev_Tools;
 use Elementor\Core\Files\Uploads_Manager as Uploads_Manager;
 
@@ -68,6 +67,20 @@ class Plugin {
 	 * @var DB
 	 */
 	public $db;
+
+	/**
+	 * Ajax Manager.
+	 *
+	 * Holds the plugin ajax handlers which are responsible for ajax requests
+	 * and responses.
+	 *
+	 * @since 1.9.0
+	 * @deprecated 2.3.0 Use `Plugin::$instance->common->get_component( 'ajax' )` instead.
+	 * @access public
+	 *
+	 * @var Ajax
+	 */
+	public $ajax;
 
 	/**
 	 * Controls manager.
@@ -362,6 +375,19 @@ class Plugin {
 	public $icons_manager;
 
 	/**
+	 * Files Manager.
+	 *
+	 * Holds the plugin files manager.
+	 *
+	 * @since 1.0.0
+	 * @deprecated 2.1.0 Use `Plugin::$files_manager` instead.
+	 * @access public
+	 *
+	 * @var Files_Manager
+	 */
+	private $posts_css_manager;
+
+	/**
 	 * WordPress widgets manager.
 	 *
 	 * Holds the WordPress widgets manager.
@@ -396,6 +422,18 @@ class Plugin {
 	 * @var Beta_Testers
 	 */
 	public $beta_testers;
+
+	/**
+	 * Debugger.
+	 *
+	 * Holds the plugin debugger data.
+	 *
+	 * @deprecated 2.1.2 Use `Plugin::$inspector` instead.
+	 * @access public
+	 *
+	 * @var Inspector
+	 */
+	public $debugger;
 
 	/**
 	 * Inspector.
@@ -455,15 +493,6 @@ class Plugin {
 	public $upgrade;
 
 	/**
-	 * Tasks manager.
-	 *
-	 * Holds the plugin tasks manager.
-	 *
-	 * @var Core\Upgrade\Custom_Tasks_Manager
-	 */
-	public $custom_tasks;
-
-	/**
 	 * Kits manager.
 	 *
 	 * Holds the plugin kits manager.
@@ -475,9 +504,15 @@ class Plugin {
 	public $kits_manager;
 
 	/**
-	 * @var \Elementor\Data\V2\Manager
+	 * Data manager.
+	 *
+	 * Holds the plugin data manager.
+	 *
+	 * @access public
+	 *
+	 * @var \Core\Data\Manager
 	 */
-	public $data_manager_v2;
+	public $data_manager;
 
 	/**
 	 * Legacy mode.
@@ -695,6 +730,7 @@ class Plugin {
 		$this->experiments = new Experiments_Manager();
 		$this->breakpoints = new Breakpoints_Manager();
 		$this->inspector = new Inspector();
+		$this->debugger = $this->inspector;
 
 		Settings_Manager::run();
 
@@ -731,7 +767,6 @@ class Plugin {
 		Tracker::init();
 
 		$this->upgrade = new Core\Upgrade\Manager();
-		$this->custom_tasks = new Core\Upgrade\Custom_Tasks_Manager();
 
 		$this->app = new Core\App\App();
 
@@ -752,6 +787,8 @@ class Plugin {
 		$this->common = new CommonApp();
 
 		$this->common->init_components();
+
+		$this->ajax = $this->common->get_component( 'ajax' );
 	}
 
 	/**
@@ -836,10 +873,6 @@ class Plugin {
 			return $this->files_manager;
 		}
 
-		if ( 'data_manager' === $property ) {
-			return Data_Manager::instance();
-		}
-
 		if ( property_exists( $this, $property ) ) {
 			throw new \Exception( 'Cannot access private property' );
 		}
@@ -859,7 +892,7 @@ class Plugin {
 		$this->register_autoloader();
 
 		$this->logger = Log_Manager::instance();
-		$this->data_manager_v2 = Data_Manager_V2::instance();
+		$this->data_manager = Data_Manager::instance();
 
 		Maintenance::init();
 		Compatibility::register_actions();

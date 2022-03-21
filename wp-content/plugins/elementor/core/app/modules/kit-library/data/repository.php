@@ -2,22 +2,15 @@
 namespace Elementor\Core\App\Modules\KitLibrary\Data;
 
 use Elementor\Core\Utils\Collection;
-use Elementor\Data\V2\Base\Exceptions\Error_404;
-use Elementor\Data\V2\Base\Exceptions\WP_Error_Exception;
 use Elementor\Modules\Library\User_Favorites;
 use Elementor\Core\App\Modules\KitLibrary\Connect\Kit_Library;
+use Elementor\Core\App\Modules\KitLibrary\Data\Exceptions\Wp_Error_Exception;
 
 if ( ! defined( 'ABSPATH' ) ) {
 	exit; // Exit if accessed directly.
 }
 
 class Repository {
-	/**
-	 * There is no label for subscription plan with access_level=0 + it should not
-	 * be translated.
-	 */
-	const SUBSCRIPTION_PLAN_FREE_TAG = 'Free';
-
 	const TAXONOMIES_KEYS = [ 'tags', 'categories', 'features', 'types' ];
 
 	const KITS_CACHE_KEY = 'elementor_remote_kits';
@@ -37,16 +30,12 @@ class Repository {
 	protected $user_favorites;
 
 	/**
-	 * @var Collection
-	 */
-	protected $subscription_plans;
-
-	/**
 	 * Get all kits.
 	 *
 	 * @param false $force_api_request
 	 *
 	 * @return Collection
+	 * @throws Wp_Error_Exception
 	 */
 	public function get_all( $force_api_request = false ) {
 		return $this->get_kits_data( $force_api_request )
@@ -62,6 +51,7 @@ class Repository {
 	 * @param array $options
 	 *
 	 * @return array|null
+	 * @throws Wp_Error_Exception
 	 */
 	public function find( $id, $options = [] ) {
 		$options = wp_parse_args( $options, [
@@ -83,7 +73,7 @@ class Repository {
 			$manifest = $this->api->get_manifest( $id );
 
 			if ( is_wp_error( $manifest ) ) {
-				throw new WP_Error_Exception( $manifest );
+				throw new Wp_Error_Exception( $manifest );
 			}
 		}
 
@@ -94,6 +84,7 @@ class Repository {
 	 * @param false $force_api_request
 	 *
 	 * @return Collection
+	 * @throws Wp_Error_Exception
 	 */
 	public function get_taxonomies( $force_api_request = false ) {
 		return $this->get_taxonomies_data( $force_api_request )
@@ -106,14 +97,6 @@ class Repository {
 					];
 				}, $taxonomies ) );
 			}, new Collection( [] ) )
-			->merge(
-				$this->subscription_plans->map( function ( $label ) {
-					return [
-						'text' => $label ? $label : self::SUBSCRIPTION_PLAN_FREE_TAG,
-						'type' => 'subscription_plans',
-					];
-				} )
-			)
 			->unique( [ 'text', 'type' ] );
 	}
 
@@ -121,12 +104,13 @@ class Repository {
 	 * @param $id
 	 *
 	 * @return array
+	 * @throws Wp_Error_Exception
 	 */
 	public function get_download_link( $id ) {
 		$response = $this->api->download_link( $id );
 
 		if ( is_wp_error( $response ) ) {
-			throw new WP_Error_Exception( $response );
+			throw new Wp_Error_Exception( $response );
 		}
 
 		return [ 'download_link' => $response->download_link ];
@@ -136,13 +120,16 @@ class Repository {
 	 * @param $id
 	 *
 	 * @return array
+	 * @throws Wp_Error_Exception
 	 * @throws \Exception
 	 */
 	public function add_to_favorites( $id ) {
 		$kit = $this->find( $id, [ 'manifest_included' => false ] );
 
 		if ( ! $kit ) {
-			throw new Error_404( __( 'Kit not found', 'elementor' ), 'kit_not_found' );
+			throw new Wp_Error_Exception(
+				new \WP_Error( 404, __( 'Kit not found', 'elementor' ) )
+			);
 		}
 
 		$this->user_favorites->add( 'elementor', 'kits', $kit['id'] );
@@ -156,13 +143,16 @@ class Repository {
 	 * @param $id
 	 *
 	 * @return array
+	 * @throws Wp_Error_Exception
 	 * @throws \Exception
 	 */
 	public function remove_from_favorites( $id ) {
 		$kit = $this->find( $id, [ 'manifest_included' => false ] );
 
 		if ( ! $kit ) {
-			throw new Error_404( __( 'Kit not found', 'elementor' ), 'kit_not_found' );
+			throw new Wp_Error_Exception(
+				new \WP_Error( 404, __( 'Kit not found', 'elementor' ) )
+			);
 		}
 
 		$this->user_favorites->remove( 'elementor', 'kits', $kit['id'] );
@@ -176,6 +166,7 @@ class Repository {
 	 * @param bool $force_api_request
 	 *
 	 * @return Collection
+	 * @throws Wp_Error_Exception
 	 */
 	private function get_kits_data( $force_api_request = false ) {
 		$data = get_transient( static::KITS_CACHE_KEY );
@@ -184,7 +175,7 @@ class Repository {
 			$data = $this->api->get_all();
 
 			if ( is_wp_error( $data ) ) {
-				throw new WP_Error_Exception( $data );
+				throw new Wp_Error_Exception( $data );
 			}
 
 			set_transient( static::KITS_CACHE_KEY, $data, static::KITS_CACHE_TTL_HOURS * HOUR_IN_SECONDS );
@@ -197,6 +188,7 @@ class Repository {
 	 * @param bool $force_api_request
 	 *
 	 * @return Collection
+	 * @throws Wp_Error_Exception
 	 */
 	private function get_taxonomies_data( $force_api_request = false ) {
 		$data = get_transient( static::KITS_TAXONOMIES_CACHE_KEY );
@@ -205,7 +197,7 @@ class Repository {
 			$data = $this->api->get_taxonomies();
 
 			if ( is_wp_error( $data ) ) {
-				throw new WP_Error_Exception( $data );
+				throw new Wp_Error_Exception( $data );
 			}
 
 			set_transient( static::KITS_TAXONOMIES_CACHE_KEY, $data, static::KITS_TAXONOMIES_CACHE_TTL_HOURS * HOUR_IN_SECONDS );
@@ -221,13 +213,11 @@ class Repository {
 	 * @return array
 	 */
 	private function transform_kit_api_response( $kit, $manifest = null ) {
-		$subscription_plan_tag = $this->subscription_plans->get( $kit->access_level );
-
-		$taxonomies = ( new Collection( (array) $kit ) )
-			->only( static::TAXONOMIES_KEYS )
-			->flatten()
-			->pluck( 'name' )
-			->push( $subscription_plan_tag ? $subscription_plan_tag : self::SUBSCRIPTION_PLAN_FREE_TAG );
+		$taxonomies = array_reduce( static::TAXONOMIES_KEYS, function ( $current, $key ) use ( $kit ) {
+			return array_merge( $current, array_map( function ( $taxonomy ) {
+				return $taxonomy->name;
+			}, $kit->{$key} ) );
+		}, [] );
 
 		return array_merge(
 			[
@@ -236,7 +226,7 @@ class Repository {
 				'thumbnail_url' => $kit->thumbnail,
 				'access_level' => $kit->access_level,
 				'keywords' => $kit->keywords,
-				'taxonomies' => $taxonomies->values(),
+				'taxonomies' => $taxonomies,
 				'is_favorite' => $this->user_favorites->exists( 'elementor', 'kits', $kit->_id ),
 				// TODO: Remove all the isset when the API stable.
 				'trend_index' => isset( $kit->trend_index ) ? $kit->trend_index : 0,
@@ -291,13 +281,13 @@ class Repository {
 	}
 
 	/**
+	 * Repository constructor.
+	 *
 	 * @param Kit_Library    $kit_library
 	 * @param User_Favorites $user_favorites
-	 * @param Collection     $subscription_plans
 	 */
-	public function __construct( Kit_Library $kit_library, User_Favorites $user_favorites, Collection $subscription_plans ) {
+	public function __construct( Kit_Library $kit_library, User_Favorites $user_favorites ) {
 		$this->api = $kit_library;
 		$this->user_favorites = $user_favorites;
-		$this->subscription_plans = $subscription_plans;
 	}
 }
